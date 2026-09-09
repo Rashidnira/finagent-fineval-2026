@@ -7,4 +7,10 @@ date-released: 2026-09-02
 authors:
   - family-names: "Rashid"
     given-names: "Mohotarema"
-repository-code: "https://github.com/11503974/finagent-fineval-2026"
+  - family-names: "Hossain"
+    given-names: "Tanzina"
+  - family-names: "Song"
+    given-names: "Xiaoying"
+  - family-names: "Hong"
+    given-names: "Lingzi"
+repository-code: "https://github.com/Rashidnira/finagent-fineval-2026"
