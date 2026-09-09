@@ -48,6 +48,10 @@ model runs.
 
 - [tanzinahossain](https://github.com/tanzinahossain)
 
+## AI Assistance
+
+**AI Assistance in Code Development:** *The authors utilized Claude Code (Anthropic, 2026) to assist in drafting evaluation scripts and automated test suites for this repository. All generated functions were manually verified, debugged, and tested by the authors to guarantee accuracy.*
+
 ## Citation
 
 Please cite the Fin_Agent system paper if you use this code.
