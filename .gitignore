@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+hf_cache/
+logs/
+*.partial.json
+
+# Official shared-task data and generated files
+subtask1/data/
+subtask1/out/
+subtask1/artifacts/
+subtask2/data/
+subtask2/out/
+subtask2/artifacts/
+subtask3/data/
+subtask3/cache/
+subtask3/outputs/
+subtask3/experiments/
+subtask3/reports/
+submissions/

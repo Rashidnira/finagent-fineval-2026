@@ -1,0 +1,6 @@
+pandas>=2.0
+pyarrow>=14.0
+openai>=1.0        # OpenAI-compatible client (subtask 1 textual half only)
+numpy>=1.24
+seqeval>=1.2       # optional: diagnostic scorer variant in s1_metric.py
+scipy>=1.10

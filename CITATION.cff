@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this system, please cite the Fin_Agent FinEval 2026 system paper."
+title: "Fin_Agent at FinEval 2026"
+type: software
+version: 1.0.0
+date-released: 2026-09-02
+authors:
+  - family-names: "Rashid"
+    given-names: "Mohotarema"
+repository-code: "https://github.com/11503974/finagent-fineval-2026"
