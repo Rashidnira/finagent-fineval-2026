@@ -1,0 +1,34 @@
+{
+ "cache_key": "d08245a51a7fb74f14c2417d85acd28a24bf1079fc6c5e652158c44d724e7630",
+ "experiment_id": "systemD_compress_strict",
+ "timestamp": "2026-08-20T19:00:51.776686+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "compress_v2_strict",
+ "config_tag": "compress_v2_strict",
+ "system_prompt": "Rewrite the answer below to AT MOST 45 words total. Keep the exact labeled structure (Answer: / ... Evidence: lines), keep every figure exactly as written, keep at most ONE short verbatim quote (drop the rest; never alter or translate inside quotation marks). Output ONLY the rewritten answer.",
+ "user_prompt": "Question: What is the company’s strategy on navigating maintaining profit margins from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: Honeywell is prioritizing cost management, productivity, and high-return investments to sustain profit margins. It cut fixed costs by $1.5B in 2020, generated $5.3B in free cash flow, and achieved a 105% adjusted free cash flow conversion rate. The aerospace segment improved operating margins by 150 bps, and the safety and productivity solutions segment by 260 bps.\n\nFinancial Statements Evidence:  \n- \"Repurchases of common stock | (3,714) | (4,400) | (4,000)\" (Cash Flow Statement)  \n- \"Net income attributable to Honeywell | 4,779 | 6,143 | 6,765\" (Cash Flow Statement)  \n- \"Free cash flow of $5.3 billion, adjusted free cash flow conversion rate of 105%\"",
+ "user_prompt_sha256": "98345bed4f9d29e0dcf5ca501f88594c42d4bbcddb8527369ca54ceb97d3ec29",
+ "user_prompt_chars": 900,
+ "task_id": "HON_20210212",
+ "submission_id": null,
+ "question": "What is the company’s strategy on navigating maintaining profit margins from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: Honeywell is focused on cost control and productivity to maintain profit margins. It cut fixed costs by $1.5B in 2020, achieved $5.3B in free cash flow, and a 105% adjusted free cash flow conversion rate.\n\nEvidence:  \n- \"Free cash flow of $5.3 billion, adjusted free cash flow conversion rate of 105%\"",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 312,
+  "output_tokens": 86
+ },
+ "from_cache": false
+}

@@ -1,6 +1,7 @@
-"""Deterministic language guard: rows that still contain non-Latin
-characters after the English rewrite get one stricter English-only pass
-with the SAME pinned model. Usage:
+"""Model-based language guard with a deterministic trigger.
+
+Rows that still contain characters above U+2000 after the English rewrite
+get one stricter English-only pass with the same pinned model. Usage:
 
     python scripts/fix_nonlatin.py <predictions.jsonl> [--provider local_qwen3_32b]
 

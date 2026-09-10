@@ -1,0 +1,34 @@
+{
+ "cache_key": "8c8736edf5ed77d4876831dae77ec3812754033f5adb313a5b156d3db5bb454e",
+ "experiment_id": "systemD_compress_expert_test",
+ "timestamp": "2026-08-20T02:42:18.878843+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "compress_v1",
+ "config_tag": "compress_v1",
+ "system_prompt": "You rewrite financial-QA answers to be shorter without losing substance.\n\nRewrite the answer below to AT MOST 55 words total. Rules:\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Keep every key figure exactly as written: numbers, units, currencies, percentages, periods.\n- Keep quoted evidence verbatim; you may drop a less-relevant quote entirely to save words, but NEVER alter, translate, or paraphrase inside quotation marks.\n- Reuse the question's key terms in the answer wording.\n- Remove filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: Please list the top three focuses on revenue from news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: The top three focuses on revenue, as highlighted in the news, are: 1) Cloud services (Intelligent Cloud), 2) Productivity and Business Processes (Office, LinkedIn), and 3) Personal Computing (Windows, Surface, Xbox).  \nFinancial Statements Evidence: The Intelligent Cloud segment revenue was $12,300 million, reflecting a 27% YoY growth, with Azure contributing a 59% revenue increase. Productivity and Business Processes revenue was $11,700 million, a 15% YoY increase, driven by Office and LinkedIn. Personal Computing revenue was $11,000 million, showing a 3% YoY increase, primarily due to Windows.",
+ "user_prompt_sha256": "ed497fd8b5ac1cedb9b8574005b1725183dc0e336f8aec92ebdcc0e95a1f37ec",
+ "user_prompt_chars": 811,
+ "task_id": "MSFT_20200429",
+ "submission_id": null,
+ "question": "Please list the top three focuses on revenue from news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: The top three focuses on revenue are: 1) Cloud services (Intelligent Cloud), 2) Productivity and Business Processes (Office, LinkedIn), and 3) Personal Computing (Windows, Surface, Xbox).  \nFinancial Statements Evidence: Intelligent Cloud revenue was $12,300 million (+27% YoY), Azure +59%. Productivity revenue was $11,700 million (+15% YoY). Personal Computing revenue was $11,000 million (+3% YoY).",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 351,
+  "output_tokens": 113
+ },
+ "from_cache": false
+}

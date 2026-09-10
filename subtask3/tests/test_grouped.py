@@ -73,6 +73,12 @@ def test_missing_key_fails_fast(monkeypatch):
         GoogleGemmaProvider()
 
 
+def test_anthropic_provider_disabled():
+    from src.providers import AnthropicProviderDisabled, ProviderDisabledError
+    with pytest.raises(ProviderDisabledError, match="DISABLED"):
+        AnthropicProviderDisabled()
+
+
 # --- OpenRouter competition provider (all local; no network calls) ----------
 
 def _openrouter_provider(monkeypatch):

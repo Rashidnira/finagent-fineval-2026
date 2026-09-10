@@ -1,0 +1,34 @@
+{
+ "cache_key": "ce0d895ccef85a86ab11e6d410aae85c8a189ed77dc52bb6b6f7eaf03b5584a1",
+ "experiment_id": "systemD_compress_expert_test",
+ "timestamp": "2026-08-20T02:43:28.087280+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "compress_v1",
+ "config_tag": "compress_v1",
+ "system_prompt": "You rewrite financial-QA answers to be shorter without losing substance.\n\nRewrite the answer below to AT MOST 55 words total. Rules:\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Keep every key figure exactly as written: numbers, units, currencies, percentages, periods.\n- Keep quoted evidence verbatim; you may drop a less-relevant quote entirely to save words, but NEVER alter, translate, or paraphrase inside quotation marks.\n- Reuse the question's key terms in the answer wording.\n- Remove filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: Please list the top three focuses on revenue from news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: The top three focuses on revenue from the news are aerospace, building technologies, and safety and productivity solutions. Aerospace saw a 25% organic sales decline due to reduced commercial demand, while building technologies declined by 8%, and safety and productivity solutions grew by 8%.  \nFinancial Statements Evidence: Aerospace sales were $2,662 (vs. $3,544 in 2019), Building Technologies $1,305 (vs. $1,415), and Safety and Productivity Solutions $1,578 (vs. $1,457). (Income Statement, Three Months Ended September 30, 2020)",
+ "user_prompt_sha256": "f25a5671bac22db42e02d79cc46a1510bb48891eeb22fbd7cfab2cd7efd1cb3d",
+ "user_prompt_chars": 745,
+ "task_id": "HON_20201030",
+ "submission_id": null,
+ "question": "Please list the top three focuses on revenue from news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: The top three focuses on revenue from news are aerospace, building technologies, and safety and productivity solutions. Aerospace had a 25% organic sales decline, building technologies fell 8%, and safety and productivity solutions rose 8%.  \nFinancial Statements Evidence: Aerospace sales were $2,662 (vs. $3,544 in 2019), Building Technologies $1,305 (vs. $1,415), and Safety and Productivity Solutions $1,578 (vs. $1,457). (Income Statement, Three Months Ended September 30, 2020)",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 344,
+  "output_tokens": 137
+ },
+ "from_cache": false
+}

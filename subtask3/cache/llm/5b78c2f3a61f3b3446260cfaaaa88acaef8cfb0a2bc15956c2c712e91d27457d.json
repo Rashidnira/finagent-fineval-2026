@@ -1,0 +1,34 @@
+{
+ "cache_key": "5b78c2f3a61f3b3446260cfaaaa88acaef8cfb0a2bc15956c2c712e91d27457d",
+ "experiment_id": "systemD_compress_easy_train",
+ "timestamp": "2026-08-20T02:40:29.403174+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "compress_v1",
+ "config_tag": "compress_v1",
+ "system_prompt": "You rewrite financial-QA answers to be shorter without losing substance.\n\nRewrite the answer below to AT MOST 55 words total. Rules:\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Keep every key figure exactly as written: numbers, units, currencies, percentages, periods.\n- Keep quoted evidence verbatim; you may drop a less-relevant quote entirely to save words, but NEVER alter, translate, or paraphrase inside quotation marks.\n- Reuse the question's key terms in the answer wording.\n- Remove filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: How does the company’s balance sheet reflect its financial health in terms of total amount of current assets and the ratio of total liability divided by total equity? Please provide only the final result(s); do not include any calculation steps. Please quote the piece(s) of news aligned with the finding(s), if any.\n\nOriginal answer:\nAnswer: The company's balance sheet as of March 31, 2020, shows total current assets of $170,505 million and a total liability-to-total equity ratio of 1.49 ($170,948 million / $114,501 million). \n\nNews Evidence: None",
+ "user_prompt_sha256": "4d15eb52f1d81e0d9b6c3a1ee6616307207e02da4f010ff70bf3d0c7a706cc5f",
+ "user_prompt_chars": 562,
+ "task_id": "MSFT_20200429",
+ "submission_id": null,
+ "question": "How does the company’s balance sheet reflect its financial health in terms of total amount of current assets and the ratio of total liability divided by total equity? Please provide only the final result(s); do not include any calculation steps. Please quote the piece(s) of news aligned with the finding(s), if any.",
+ "raw_response": "Answer: As of March 31, 2020, the company had total current assets of $170,505 million and a total liability-to-total equity ratio of 1.49 ($170,948 million / $114,501 million). \n\nNews Evidence: None",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 304,
+  "output_tokens": 71
+ },
+ "from_cache": false
+}

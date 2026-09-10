@@ -1,6 +1,6 @@
 """Score the retrieval x granularity grid and report mean and standard deviation.
 
-    python scripts/score_grid.py --seeds 1 2 3
+    python scripts/score_grid.py --seeds 1 2 3 4 5
 
 Scores every cell at every seed on the PolyFiQA-Easy development set with both
 scorers, then reports per-cell mean and standard deviation across seeds, the
@@ -13,9 +13,9 @@ differences. Pairing removes the part of the run-to-run variation that moves
 all four cells together, so it is a tighter estimate than comparing the
 standard deviations of the four cell scores separately.
 
-Three seeds support description, not inference. The report therefore states
+Five seeds support description, not inference. The report therefore states
 whether an estimated effect is larger or smaller than the variation across the
-three runs, and never claims statistical significance or an absence of effect.
+five runs, and never claims statistical significance or an absence of effect.
 """
 from __future__ import annotations
 
@@ -50,7 +50,7 @@ def msd(xs: list[float]) -> tuple[float, float]:
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--seeds", type=int, nargs="+", default=[1, 2, 3])
+    ap.add_argument("--seeds", type=int, nargs="+", default=[1, 2, 3, 4, 5])
     ap.add_argument("--dataset", default="easy_train")
     ap.add_argument("--out", default=str(ROOT / "reports/GRID_RESULTS.md"))
     args = ap.parse_args()
@@ -98,8 +98,8 @@ def main() -> int:
     out("This grid is a new controlled analysis. It ran with a larger context "
         "window and a different compute backend from the submitted system, so "
         "it is not a reproduction of the submitted runs; see "
-        "reports/GRID_PROVENANCE.md. Because all four cells share one "
-        "environment, comparisons between them are unaffected.")
+        "reports/GRID_PROVENANCE.md. Using one environment for all four "
+        "cells supports internally consistent comparisons.")
     out()
 
     for key, pretty in SCORERS:

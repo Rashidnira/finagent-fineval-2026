@@ -1,0 +1,34 @@
+{
+ "cache_key": "1783d4ada7676d23d4c0c8b59975d0e2368fb8b08f63d9b91f97403a5d64626e",
+ "experiment_id": "systemD_rewrite_en_local_qwen3_32b",
+ "timestamp": "2026-08-20T18:59:18.299350+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "rewrite_en60_v1",
+ "config_tag": "rewrite_en60_v1",
+ "system_prompt": "You rewrite financial-QA answers to a strict house style.\n\nRewrite the answer below. Rules:\n- Target 55-65 words total, NEVER more than 75.\n- ENGLISH ONLY. If the answer contains any Chinese, Japanese, Greek, or Spanish text (including quotes), replace it with a faithful English rendering of the same information. No non-Latin characters may remain.\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Write monetary amounts compactly: $27.2B, $416M, $3.5M — but ONLY when the magnitude is clear from the original wording (e.g. \"US$14,014 million\" -> \"$14.0B\"). If the scale of a raw number is not explicit, keep it unchanged. Never alter what a number means. Keep percentages as printed (e.g. 18.6%).\n- Keep every distinct fact. Reuse the question's key terms in the wording.\n- Remove filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: Please list the top three focuses on revenue from news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: The top three focuses on revenue from the news are: 1) Johnson & Johnson's pharmaceutical and medical devices sales, particularly oncology drugs and the single-dose COVID-19 vaccine, 2) Strategic investments in R&D, including digital therapeutics and innovative products, and 3) Global expansion and supply chain optimization to meet rising demand for mental health treatments and vaccines.  \n\nFinancial Statements Evidence: Sales to customers in 2020 were $82,584 million; R&D expenses were $12,159 million, representing 14.7% of sales; and the Q4 revenue was $22.48 billion, up from $20.75 billion in the same period in 2019.",
+ "user_prompt_sha256": "93460904ade2c691bb29a248e51bf6deea0d74fbd77c6e6fb07647eeca39eac7",
+ "user_prompt_chars": 836,
+ "task_id": "JNJ_20210222",
+ "submission_id": null,
+ "question": "Please list the top three focuses on revenue from news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: The top three focuses on revenue from news are: 1) Johnson & Johnson's pharmaceutical and medical device sales, especially oncology drugs and the single-dose COVID-19 vaccine, 2) R&D investments in digital therapeutics and innovation, and 3) global expansion and supply chain optimization for mental health and vaccines.  \n\nFinancial Statements Evidence: Sales in 2020 were $82.58B; R&D expenses were $12.16B, or 14.7% of sales; Q4 revenue was $22.48B, up from $20.75B in the prior year.",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 460,
+  "output_tokens": 139
+ },
+ "from_cache": false
+}

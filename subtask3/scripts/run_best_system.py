@@ -1,5 +1,6 @@
 """One-command reproduction of the Fin-Agent best submission
-(System D + Qwen3-32B + English/number rewrite).
+(System D + Qwen3-32B + English/number rewrite; public ROUGE-1 F1 0.3023,
+private 0.3419).
 
     python scripts/run_best_system.py [--tag qwen32b_De2_repro] [--skip-retrieval]
 
@@ -12,12 +13,15 @@ cached model response):
                           expert_test.predictions.jsonl         (Qwen3-32B)
   4. rewrite_en        -> expert_test.rewritten_en.jsonl        (Qwen3-32B)
   5. fix_overlength    -> same file, only rows > 100 words      (Qwen3-32B)
-  6. systemd_to_submission + src.submission
+  6. fix_nonlatin      -> same file, only rows still matching the
+                          code-point trigger                    (Qwen3-32B)
+  7. systemd_to_submission + src.submission
                        -> outputs/submission/submission_<tag>.csv
 
 Requirements: an Ollama server with the `qwen3:32b` model reachable at
 LOCAL_OLLAMA_BASE (default http://127.0.0.1:11500). See BEST_SYSTEM.md.
-Generated caches are reused automatically when present.
+With the shipped cache/llm/ and data/processed/ directories, stages 2-5 hit
+the cache and the run completes offline in under a minute.
 """
 from __future__ import annotations
 

@@ -1,0 +1,11 @@
+SOURCE: logged-in FinNLP 2026 Subtask 3 Rules page (supplied verbatim by the
+participant user).
+RETRIEVED: 2026-08-19
+NOTE: Total, not active, MoE parameters determine eligibility.
+
+VERBATIM RULE TEXT:
+
+"The submitted model must not exceed 70 billion total parameters (70B).
+Mixture-of-Experts (MoE) models: Eligibility is determined by the model's
+total parameter count, not the number of parameters activated during
+inference."

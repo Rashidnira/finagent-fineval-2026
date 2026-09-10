@@ -1,0 +1,34 @@
+{
+ "cache_key": "3f39caeec2b26866024100c3a038803f365b83c974b3ccc33b383067c10de1b4",
+ "experiment_id": "fix_nonlatin",
+ "timestamp": "2026-08-20T19:01:55.778217+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "fix_nonlatin_v1",
+ "config_tag": "fix_nonlatin_v1",
+ "system_prompt": "The answer below contains non-English text (Chinese, Japanese, Greek, or Spanish). Rewrite it in ENGLISH ONLY, at most 70 words: translate the non-English parts faithfully into English prose (no quotation marks around translations), keep the labeled structure (Answer: / ... Evidence: lines), keep all figures exactly. Not a single non-Latin character may remain. Output ONLY the rewritten answer.",
+ "user_prompt": "Original answer:\nAnswer: Honeywell’s strategy for maintaining profit margins includes cost management and investing in emerging markets. The company reported $450M in cost savings during Q3 2020, contributing to a 60 basis point margin increase in Honeywell Building Technologies.\n\nFinancial Statements Evidence: The cash flow statement shows $486M in repositioning charges for the nine months ended September 30, 2020, with net payments of $652M. Depreciation and amortization were $480M and $268M, respectively, reflecting cost management efforts.",
+ "user_prompt_sha256": "28adc1b5d83df43cc6f32408b44919ebef5894b75e4270ad855e61b497e8ed63",
+ "user_prompt_chars": 549,
+ "task_id": "HON_20201030",
+ "submission_id": null,
+ "question": "What is the company’s strategy on navigating maintaining profit margins from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: Honeywell’s strategy for maintaining profit margins includes cost management and investing in emerging markets. The company reported $450M in cost savings during Q3 2020, contributing to a 60 basis point margin increase in Honeywell Building Technologies.\n\nFinancial Statements Evidence: The cash flow statement shows $486M in repositioning charges for the nine months ended September 30, 2020, with net payments of $652M. Depreciation and amortization were $480M and $268M, respectively, reflecting cost management efforts.",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 228,
+  "output_tokens": 127
+ },
+ "from_cache": false
+}

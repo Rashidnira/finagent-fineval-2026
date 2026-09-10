@@ -1,0 +1,20 @@
+{
+ "experiment_id": "easy_C_local_qwen3_32b_grouped_v1",
+ "n": 76,
+ "date": "2026-09-04",
+ "model": "qwen3:32b",
+ "provider": "local_qwen3_32b",
+ "system_type": "C",
+ "dataset": "easy",
+ "generation_mode": "grouped+routed",
+ "new_api_calls": 0,
+ "multifinben_default_f1": 0.4192878439852701,
+ "multifinben_default_p": 0.46893623747172547,
+ "multifinben_default_r": 0.43057837799570614,
+ "finmmeval_multiscript_f1": 0.4133702431676866,
+ "finmmeval_multiscript_p": 0.46985605615339515,
+ "finmmeval_multiscript_r": 0.4210905521323689,
+ "format_pass_rate": 0.9605263157894737,
+ "numeric_grounded_rate": 0.9342105263157895,
+ "quote_verbatim_rate": 0.8421052631578947
+}

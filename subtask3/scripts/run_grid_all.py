@@ -1,6 +1,6 @@
 """Run every cell of the grid at every seed.
 
-    python scripts/run_grid_all.py --seeds 1 2 3
+    python scripts/run_grid_all.py --seeds 1 2 3 4 5
 
 Runs 4 cells x N seeds. Responses are cached as they complete, so an
 interrupted run resumes where it stopped rather than starting over.
@@ -19,7 +19,7 @@ CELLS = ["pq_noretr", "pq_retr", "gr_noretr", "gr_retr"]
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--seeds", type=int, nargs="+", default=[1, 2, 3])
+    ap.add_argument("--seeds", type=int, nargs="+", default=[1, 2, 3, 4, 5])
     ap.add_argument("--dataset", default="easy_train")
     ap.add_argument("--cells", nargs="+", default=CELLS, choices=CELLS)
     args = ap.parse_args()

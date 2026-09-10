@@ -1,0 +1,34 @@
+{
+ "cache_key": "b17ef2d9606d68ad0da72984478cfe8946edd6ac4222a4c6671314d93c17c657",
+ "experiment_id": "systemD_compress_expert_test",
+ "timestamp": "2026-08-20T02:43:30.926958+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "compress_v1",
+ "config_tag": "compress_v1",
+ "system_prompt": "You rewrite financial-QA answers to be shorter without losing substance.\n\nRewrite the answer below to AT MOST 55 words total. Rules:\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Keep every key figure exactly as written: numbers, units, currencies, percentages, periods.\n- Keep quoted evidence verbatim; you may drop a less-relevant quote entirely to save words, but NEVER alter, translate, or paraphrase inside quotation marks.\n- Reuse the question's key terms in the answer wording.\n- Remove filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: How is the company allocating capital (e.g., investments, share repurchases, dividends) based on its performance and market outlook from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: Honeywell allocated capital through share repurchases, dividends, and long-term debt issuance. It repurchased $2,149 million in common stock and paid $1,921 million in dividends in the nine months ending September 30, 2020. Proceeds from long-term debt issuance totaled $10,105 million. The company also issued $8,577 million in commercial paper and other short-term borrowings, though it repaid $8,512 million in the same category.\n\nFinancial Statements Evidence: Repurchases of common stock | (2,149) | (3,650); Cash dividends paid | (1,921) | (1,798); Proceeds from issuance of long-term debt | 10,105 | 2,725; Proceeds from issuance of commercial paper and other short-term borrowings | 8,577 | 10,292; Payments of commercial paper and other short-term borrowings | (8,512) | (10,293).",
+ "user_prompt_sha256": "5b66239fbd14a1907fdf77bb553da9a26277f474fe4a203d10eb979dd9a5134f",
+ "user_prompt_chars": 1089,
+ "task_id": "HON_20201030",
+ "submission_id": null,
+ "question": "How is the company allocating capital (e.g., investments, share repurchases, dividends) based on its performance and market outlook from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: Honeywell allocated capital via share repurchases, dividends, and debt. It repurchased $2,149 million in stock and paid $1,921 million in dividends in the nine months ending September 30, 2020. Proceeds from long-term debt issuance were $10,105 million.\n\nFinancial Statements Evidence: Repurchases of common stock | (2,149) | (3,650); Cash dividends paid | (1,921) | (1,798); Proceeds from issuance of long-term debt | 10,105 | 2,725.",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 454,
+  "output_tokens": 141
+ },
+ "from_cache": false
+}

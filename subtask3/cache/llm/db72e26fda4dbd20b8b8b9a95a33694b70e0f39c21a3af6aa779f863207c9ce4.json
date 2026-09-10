@@ -1,0 +1,34 @@
+{
+ "cache_key": "db72e26fda4dbd20b8b8b9a95a33694b70e0f39c21a3af6aa779f863207c9ce4",
+ "experiment_id": "systemD_compress_expert_test",
+ "timestamp": "2026-08-20T02:45:18.034689+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "compress_v1",
+ "config_tag": "compress_v1",
+ "system_prompt": "You rewrite financial-QA answers to be shorter without losing substance.\n\nRewrite the answer below to AT MOST 55 words total. Rules:\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Keep every key figure exactly as written: numbers, units, currencies, percentages, periods.\n- Keep quoted evidence verbatim; you may drop a less-relevant quote entirely to save words, but NEVER alter, translate, or paraphrase inside quotation marks.\n- Reuse the question's key terms in the answer wording.\n- Remove filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: Please list the top three focuses on revenue from news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: The top three focuses on revenue are: 1) Universal Corporation's tobacco supply business and global operations, 2) Expansion in plant-based ingredients through targeted acquisitions (e.g., Silva International), and 3) Diversification into non-tobacco markets.  \nFinancial Statements Evidence: \"Sales and other operating revenues... $1,365,767 (Nine Months Ended December 31, 2020)\" and \"Purchase of business, net of cash held by the business... $161,095 (Nine Months Ended December 31, 2020).\"",
+ "user_prompt_sha256": "c21570c2ad9b4ce06a5a638f536b17d95105a0ccb92f85bad7d5383e53772610",
+ "user_prompt_chars": 702,
+ "task_id": "UVV_20210208",
+ "submission_id": null,
+ "question": "Please list the top three focuses on revenue from news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: The top three focuses on revenue are: 1) Universal Corporation's tobacco supply business, 2) Expansion in plant-based ingredients via acquisitions (e.g., Silva International), and 3) Diversification into non-tobacco markets.  \nFinancial Statements Evidence: \"Sales and other operating revenues... $1,365,767 (Nine Months Ended December 31, 2020)\" and \"Purchase of business, net of cash held by the business... $161,095 (Nine Months Ended December 31, 2020).\"",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 328,
+  "output_tokens": 126
+ },
+ "from_cache": false
+}

@@ -1,0 +1,34 @@
+{
+ "cache_key": "e4295b8f807782bc3238c280803a32344f754cee248b4a7f98e15dfbce316294",
+ "experiment_id": "systemD_compress_expert_test",
+ "timestamp": "2026-08-20T02:42:31.830533+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "compress_v1",
+ "config_tag": "compress_v1",
+ "system_prompt": "You rewrite financial-QA answers to be shorter without losing substance.\n\nRewrite the answer below to AT MOST 55 words total. Rules:\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Keep every key figure exactly as written: numbers, units, currencies, percentages, periods.\n- Keep quoted evidence verbatim; you may drop a less-relevant quote entirely to save words, but NEVER alter, translate, or paraphrase inside quotation marks.\n- Reuse the question's key terms in the answer wording.\n- Remove filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: How is the company allocating capital (e.g., investments, share repurchases, dividends) based on its performance and market outlook from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: Microsoft allocated capital through share repurchases of $22,968 million and dividends of $15,137 million in 2020, while also issuing common stock worth $1,343 million. Despite a 15% drop in net income in the fourth quarter due to store closures, Microsoft continued investing in R&D, which increased by 14% in 2020, and participated in the Open Source Security Foundation to bolster security initiatives.  \nFinancial Statements Evidence: Repayments of debt | (5,518 | ), Common stock repurchased | (22,968 | ), Common stock cash dividends paid | (15,137 | ), and R&D expenses increased from $16,876 in 2019 to $19,269 in 2020.",
+ "user_prompt_sha256": "9b7ab9cca409c225894b04883f3887fbb6d5285193ea17942da682be93efecf8",
+ "user_prompt_chars": 927,
+ "task_id": "MSFT_20200730",
+ "submission_id": null,
+ "question": "How is the company allocating capital (e.g., investments, share repurchases, dividends) based on its performance and market outlook from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: Microsoft allocated capital via $22,968 million in share repurchases and $15,137 million in dividends in 2020, alongside $1,343 million in common stock issuance. R&D spending rose 14% to $19,269 million despite a 15% Q4 net income drop.  \nFinancial Statements Evidence: Common stock repurchased | (22,968 | ), Common stock cash dividends paid | (15,137 | ), and R&D expenses increased from $16,876 in 2019 to $19,269 in 2020.",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 402,
+  "output_tokens": 147
+ },
+ "from_cache": false
+}

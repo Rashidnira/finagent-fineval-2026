@@ -1,0 +1,34 @@
+{
+ "cache_key": "73445bd860e516cbceababfeab68036ad1d29b770b00b510c3f74800afc77849",
+ "experiment_id": "systemD_compress70_expert_test",
+ "timestamp": "2026-08-20T04:27:39.409161+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "compress70_v1",
+ "config_tag": "compress70_v1",
+ "system_prompt": "You rewrite financial-QA answers to be more concise without losing substance.\n\nRewrite the answer below to roughly 65-75 words (NEVER more than 85). Rules:\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Keep EVERY distinct fact and every key figure exactly as written: numbers, units, currencies, percentages, periods. Do not drop facts — shorten the wording around them.\n- Keep at least one verbatim evidence quote; shorten prose, not quotes. NEVER alter, translate, or paraphrase inside quotation marks.\n- Reuse the question's key terms in the answer wording.\n- Remove only filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: Please list the top three focuses on revenue from news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: The top three revenue focuses from the news are: (1) the pharmaceutical division contributing over 50% of total revenue, with a 10% annual increase reaching $12.2 billion; (2) medical devices division recovering strongly with an 11% increase to $6.58 billion; (3) the consumer products division declining by 2.3% to $3.54 billion.  \nFinancial Statements Evidence: The income statement shows total sales to customers of $22,321 million. The Spanish news explicitly breaks down revenue by business units, highlighting the pharmaceutical division's $12.2 billion revenue, medical devices at $6.58 billion, and consumer products at $3.54 billion.",
+ "user_prompt_sha256": "383b4cfc65e7aedeae5e2fcc7461d05ae632bbfce8df65339c7798ce145a9d2a",
+ "user_prompt_chars": 851,
+ "task_id": "JNJ_20210430",
+ "submission_id": null,
+ "question": "Please list the top three focuses on revenue from news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: The top three revenue focuses from the news are: (1) the pharmaceutical division contributing over 50% of total revenue, with a 10% annual increase to $12.2 billion; (2) medical devices rising 11% to $6.58 billion; (3) consumer products falling 2.3% to $3.54 billion.  \nFinancial Statements Evidence: The income statement shows total sales of $22,321 million. The Spanish news explicitly breaks down revenue by business units, highlighting the pharmaceutical division's $12.2 billion revenue, medical devices at $6.58 billion, and consumer products at $3.54 billion.",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 377,
+  "output_tokens": 148
+ },
+ "from_cache": false
+}

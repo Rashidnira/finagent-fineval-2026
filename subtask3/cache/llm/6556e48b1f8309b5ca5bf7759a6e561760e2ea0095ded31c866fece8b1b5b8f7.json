@@ -1,0 +1,34 @@
+{
+ "cache_key": "6556e48b1f8309b5ca5bf7759a6e561760e2ea0095ded31c866fece8b1b5b8f7",
+ "experiment_id": "fix_nonlatin",
+ "timestamp": "2026-08-20T19:02:09.938081+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "fix_nonlatin_v1",
+ "config_tag": "fix_nonlatin_v1",
+ "system_prompt": "The answer below contains non-English text (Chinese, Japanese, Greek, or Spanish). Rewrite it in ENGLISH ONLY, at most 70 words: translate the non-English parts faithfully into English prose (no quotation marks around translations), keep the labeled structure (Answer: / ... Evidence: lines), keep all figures exactly. Not a single non-Latin character may remain. Output ONLY the rewritten answer.",
+ "user_prompt": "Original answer:\nAnswer: Universal Corporation’s 2020 capital expenditures were $35.2M, allocated to property, plant, and equipment. This reflects strategic investment in global sourcing, processing, and logistics infrastructure to sustain competitiveness amid supply chain and currency challenges.  \n\nFinancial Statements Evidence: Purchase of property, plant and equipment (35,227)",
+ "user_prompt_sha256": "d56d9775b7edf00d05b707e9e2d3586ac3766e79fca5a0715619b58d71584671",
+ "user_prompt_chars": 383,
+ "task_id": "UVV_20200528",
+ "submission_id": null,
+ "question": "What are the company's capital expenditures and their strategic significance from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: Universal Corporation’s 2020 capital expenditures were $35.2M, directed toward property, plant, and equipment. This shows a strategic move to invest in global sourcing, processing, and logistics infrastructure to maintain competitiveness despite supply chain and currency issues.  \n\nFinancial Statements Evidence: Purchase of property, plant and equipment (35,227)",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 174,
+  "output_tokens": 76
+ },
+ "from_cache": false
+}

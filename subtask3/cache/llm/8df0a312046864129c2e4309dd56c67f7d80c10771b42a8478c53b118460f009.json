@@ -1,0 +1,34 @@
+{
+ "cache_key": "8df0a312046864129c2e4309dd56c67f7d80c10771b42a8478c53b118460f009",
+ "experiment_id": "systemD_compress70_expert_test",
+ "timestamp": "2026-08-20T04:21:14.624648+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "compress70_v1",
+ "config_tag": "compress70_v1",
+ "system_prompt": "You rewrite financial-QA answers to be more concise without losing substance.\n\nRewrite the answer below to roughly 65-75 words (NEVER more than 85). Rules:\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Keep EVERY distinct fact and every key figure exactly as written: numbers, units, currencies, percentages, periods. Do not drop facts — shorten the wording around them.\n- Keep at least one verbatim evidence quote; shorten prose, not quotes. NEVER alter, translate, or paraphrase inside quotation marks.\n- Reuse the question's key terms in the answer wording.\n- Remove only filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: What are the company's capital expenditures and their strategic significance from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: Microsoft's capital expenditures reflect its strategic focus on cloud infrastructure and AI expansion. The company spent $14,170 million on property and equipment additions and $8,408 million on acquisitions and intangible assets in the nine months ended March 31, 2021. This aligns with news of its $19.7 billion acquisition of Nuance for AI advancements and ongoing investments in cloud platforms like Azure, which grew revenues by 50% year-over-year.  \n\nFinancial Statements Evidence: Additions to property and equipment: (14,170); Acquisition of companies, net of cash acquired, and purchases of intangible and other assets: (8,408).",
+ "user_prompt_sha256": "d12e0ebf3d4b39a48d9474ca35198e44810716d20c4295b34cd8b37ef55e6c61",
+ "user_prompt_chars": 882,
+ "task_id": "MSFT_20210427",
+ "submission_id": null,
+ "question": "What are the company's capital expenditures and their strategic significance from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: Microsoft's capital expenditures highlight its focus on cloud and AI growth. The company spent $14,170 million on property and equipment and $8,408 million on acquisitions and intangible assets in the nine months ended March 31, 2021. This supports the $19.7 billion Nuance acquisition and Azure's 50% YoY revenue growth.  \n\nFinancial Statements Evidence: Additions to property and equipment: (14,170); Acquisition of companies, net of cash acquired, and purchases of intangible and other assets: (8,408).",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 373,
+  "output_tokens": 130
+ },
+ "from_cache": false
+}

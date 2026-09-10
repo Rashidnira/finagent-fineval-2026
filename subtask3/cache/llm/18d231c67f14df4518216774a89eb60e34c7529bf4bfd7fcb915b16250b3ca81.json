@@ -1,0 +1,34 @@
+{
+ "cache_key": "18d231c67f14df4518216774a89eb60e34c7529bf4bfd7fcb915b16250b3ca81",
+ "experiment_id": "fix_nonlatin",
+ "timestamp": "2026-08-20T19:01:53.110908+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "fix_nonlatin_v1",
+ "config_tag": "fix_nonlatin_v1",
+ "system_prompt": "The answer below contains non-English text (Chinese, Japanese, Greek, or Spanish). Rewrite it in ENGLISH ONLY, at most 70 words: translate the non-English parts faithfully into English prose (no quotation marks around translations), keep the labeled structure (Answer: / ... Evidence: lines), keep all figures exactly. Not a single non-Latin character may remain. Output ONLY the rewritten answer.",
+ "user_prompt": "Original answer:\nAnswer: Honeywell’s strategy to maintain profit margins includes cost management, sales growth in resilient sectors like defense and automation, and technology investments. The company achieved $500M in Q2 cost savings and aims for an additional $1.4–1.6B in 2020.  \n\nFinancial Statements Evidence:  \n- Net income for six months ended June 30, 2020, was $2.7B.  \n- Free cash flow was $1.3B, with $746M from reduced investments.  \n- Restructuring charges were $342M, with net payments of $309M.  \n- Debt was reduced by $1.2B, and $2.0B in stock was repurchased.",
+ "user_prompt_sha256": "667b100cdb9164102364b55551059f650f10dd4deff6003fde87e2203f98eff8",
+ "user_prompt_chars": 577,
+ "task_id": "HON_20200724",
+ "submission_id": null,
+ "question": "What is the company’s strategy on navigating maintaining profit margins from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: Honeywell’s strategy to maintain profit margins includes cost management, sales growth in resilient sectors like defense and automation, and technology investments. The company achieved $500M in Q2 cost savings and aims for an additional $1.4–1.6B in 2020.  \n\nFinancial Statements Evidence:  \n- Net income for six months ended June 30, 2020, was $2.7B.  \n- Free cash flow was $1.3B, with $746M from reduced investments.  \n- Restructuring charges were $342M, with net payments of $309M.  \n- Debt was reduced by $1.2B, and $2.0B in stock was repurchased.",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 264,
+  "output_tokens": 163
+ },
+ "from_cache": false
+}

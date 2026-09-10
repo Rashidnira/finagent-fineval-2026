@@ -1,0 +1,46 @@
+{
+  "easy_train": {
+    "file": "public-00000-of-00001.parquet",
+    "task_ids": 19,
+    "news_chunks": 348,
+    "financial_statement_chunks": 329,
+    "chunks_per_task_min": 23,
+    "chunks_per_task_median": 34,
+    "chunks_per_task_max": 53,
+    "news_chunks_by_language": {
+      "en": 240,
+      "zh": 28,
+      "ja": 19,
+      "es": 39,
+      "el": 22
+    },
+    "fs_chunks_by_statement_type": {
+      "balance_sheet": 121,
+      "cash_flow": 128,
+      "income_statement": 80
+    },
+    "text_loss_failures": []
+  },
+  "expert_test": {
+    "file": "PolyFiQA_test_participant.parquet",
+    "task_ids": 19,
+    "news_chunks": 348,
+    "financial_statement_chunks": 329,
+    "chunks_per_task_min": 23,
+    "chunks_per_task_median": 34,
+    "chunks_per_task_max": 53,
+    "news_chunks_by_language": {
+      "en": 240,
+      "zh": 28,
+      "ja": 19,
+      "es": 39,
+      "el": 22
+    },
+    "fs_chunks_by_statement_type": {
+      "balance_sheet": 121,
+      "cash_flow": 128,
+      "income_statement": 80
+    },
+    "text_loss_failures": []
+  }
+}

@@ -1,0 +1,34 @@
+{
+ "cache_key": "cd9daa2e6afafe82b5805852cf3bf167f9e9f31c7de474daa43bdbd3b41395a6",
+ "experiment_id": "systemD_compress_easy_train",
+ "timestamp": "2026-08-20T02:41:54.286857+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "compress_v1",
+ "config_tag": "compress_v1",
+ "system_prompt": "You rewrite financial-QA answers to be shorter without losing substance.\n\nRewrite the answer below to AT MOST 55 words total. Rules:\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Keep every key figure exactly as written: numbers, units, currencies, percentages, periods.\n- Keep quoted evidence verbatim; you may drop a less-relevant quote entirely to save words, but NEVER alter, translate, or paraphrase inside quotation marks.\n- Reuse the question's key terms in the answer wording.\n- Remove filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: Are there any significant changes or irregularities in the amount of operating, investing and financing cash flow? Please quote the piece(s) of news aligned with the finding(s), if any.\n\nOriginal answer:\nAnswer: Honeywell's operating cash flow increased slightly to $978 million in Q1 2021 from $939 million in Q1 2020. However, investing cash flow significantly decreased to -$1,304 million in Q1 2021 compared to $350 million in Q1 2020, primarily due to large acquisition expenditures. Financing cash flow also declined to -$2,217 million from -$2,446 million, showing reduced outflows.  \n\nNews Evidence: \"Cash flows from investing activities: Expenditures for property, plant and equipment (221) (139)... Cash paid for acquisitions, net of cash acquired (1,303)... Net cash provided by (used for) investing activities (1,304) 350\".",
+ "user_prompt_sha256": "6485f9b3972b1547e44691bed8cfbbcc70080bfe475d5b43cdc357ce34c4e771",
+ "user_prompt_chars": 845,
+ "task_id": "HON_20210423",
+ "submission_id": null,
+ "question": "Are there any significant changes or irregularities in the amount of operating, investing and financing cash flow? Please quote the piece(s) of news aligned with the finding(s), if any.",
+ "raw_response": "Answer: Operating cash flow rose slightly to $978M in Q1 2021 from $939M in Q1 2020. Investing cash flow fell to -$1,304M from $350M, due to acquisition costs. Financing cash flow decreased to -$2,217M from -$2,446M.  \n\nNews Evidence: \"Cash paid for acquisitions, net of cash acquired (1,303)... Net cash provided by (used for) investing activities (1,304) 350\"",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 386,
+  "output_tokens": 125
+ },
+ "from_cache": false
+}

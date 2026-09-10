@@ -1,0 +1,284 @@
+id,prediction
+poly_001,"Answer: The top three revenue focuses in the news are: 1) Cloud services (Intelligent Cloud), 2) Productivity and Business Processes (Office, LinkedIn), and 3) Personal Computing (Windows, Surface, Xbox).  
+Financial Statements Evidence: Intelligent Cloud revenue was $12.3B, up 27% YoY, with Azure up 59%. Productivity and Business Processes revenue was $11.7B, up 15% YoY. Personal Computing revenue was $11.0B, up 3% YoY."
+poly_002,"Answer: Microsoft allocated capital via share repurchases and dividends, repurchasing $7.1B in stock and paying $3.9B in dividends for the three months ended March 31, 2020. It also issued $342M in common stock. Strong cloud performance and market demand supported these returns despite capital outflows.  
+
+Financial Statements Evidence:  
+Financing:  
+- Common stock repurchased | (7,059 | )  
+- Common stock cash dividends paid | (3,876 | )  
+- Common stock issued | 342 |"
+poly_003,"Answer: The company sustains profit margins through cloud growth, notably Azure (+59% YoY) and Microsoft 365. Operational efficiency boosted revenue by 15% and net income by 22%.  
+
+Evidence: lines  
+- Net income for the three months ended March 31, 2020, was $10.8B, a 22% increase from $8.8B in the same period in 2019.  
+- Total revenue for the three months ended March 31, 2020, was $35.0B, a 15% increase from $30.6B in the same period in 2019.  
+- Azure revenue grew by 59% year-over-year."
+poly_004,"Answer: The company reported capital expenditures (additions to property and equipment) of $3.8B for the three months ended March 31, 2020. This strategic investment supports long-term growth, especially in cloud infrastructure and digital transformation, driven by rising demand for cloud services and remote work solutions.  
+
+Financial Statements Evidence: Additions to property and equipment: $3,767 (Three Months Ended March 31, 2020)."
+poly_005,"Answer: The top three revenue focuses from news are Cloud (Intelligent Cloud), Productivity and Business Processes (Office 365), and Personal Computing (Xbox and Surface).  
+Financial Statements Evidence: Intelligent Cloud revenue was $48.366B (47% Azure growth). Productivity and Business Processes revenue was $46.398B (13% increase). Personal Computing revenue was $48.251B (14% increase, driven by Xbox and Surface)."
+poly_006,"Answer: Microsoft allocated capital via share repurchases of $22.97B and dividends of $15.14B in 2020, alongside issuing $1.34B in common stock. Despite a 15% Q4 net income decline due to store closures, R&D investment rose 14% to $19.27B in 2020. The company also joined the Open Source Security Foundation to enhance security initiatives.  
+Financial Statements Evidence: Repayments of debt | (5,518 | ), Common stock repurchased | (22,968 | ), Common stock cash dividends paid | (15,137 | ), and R&D expenses increased from $16,876 in 2019 to $19,269 in 2020."
+poly_007,"Answer: Microsoft is prioritizing cloud and innovation to sustain profit margins, as seen in its 2020 financials. Gross margin rose to $96.9B from $82.9B in 2019, with net income at $44.3B, up from $39.2B. The Intelligent Cloud segment drove growth, with Azure revenue rising 47%.  
+
+Financial Statements Evidence:  
+- Gross margin for 2020 was $96,937 million (vs. $82,933 million in 2019).  
+- Intelligent Cloud revenue increased by 17%, with Azure growing 47%.  
+- Net income for 2020 was $44,281 million, up from $39,240 million in 2019."
+poly_008,"Answer: The company's capital expenditures were $15.4B in 2020 and $13.9B in 2019. These reflect strategic investments in property and equipment to support growth in cloud infrastructure, data centers, and advanced technologies, consistent with Microsoft's innovation and digital security focus in the news.  
+Financial Statements Evidence: Additions to property and equipment | (15,441 | ) | (13,925 | )."
+poly_009,"Answer: The top three focuses on revenue from news are: 1) Azure cloud services, with 48% cloud revenue growth; 2) Office and LinkedIn in ""Productivity and Business Processes,"" generating $12.3B; and 3) Gaming and Windows in ""More Personal Computing,"" contributing $11.85B.  
+Financial Statements Evidence: Total revenue was $37,154 million, with Azure growth at 48%, ""Productivity and Business Processes"" at $12,300 million, and ""More Personal Computing"" at $11,850 million."
+poly_010,"Answer: Microsoft is allocating capital through share repurchases, dividends, and investments in cloud solutions and acquisitions. In Q3, it repurchased $6.7B in stock and paid $3.9B in dividends, while issuing $545M in stock. This follows $13.9B net income and 48% Azure revenue growth.  
+
+Financial Statements Evidence:  
+- Common stock repurchased: (6,743)  
+- Common stock cash dividends paid: (3,856)  
+- Common stock issued: 545  
+- Net income: 13,893"
+poly_011,"Answer: Microsoft is leveraging its cloud services, such as Azure and Teams, to maintain and improve profit margins amid increased demand from remote work and digital transformation. Strategic investments in automation, AI, and blockchain, alongside product innovation, reinforce margin resilience.  
+
+Financial Statements Evidence: Microsoft reported 20% YoY growth in Intelligent Cloud revenue ($13B) and 48% Azure growth. Gross margin was $26,152M, with 71% commercial cloud margin (up from 66% YoY). Net income rose 30% to $13,893M from $10,678M."
+poly_012,"Answer: The company reported capital expenditures of $4.9B in the three months ended September 30, 2020, per the cash flow statement. These investments support its strategic focus on cloud solutions, including Azure, to drive growth in the competitive cloud market.  
+
+Financial Statements Evidence: (cash_flow, periods: Three Months Ended September 30,, section: Investing) Additions to property and equipment | $ | (4,907 | )."
+poly_013,"Answer: The top three focuses on revenue from news are: 1) Azure cloud services, with 50% revenue growth in Q2, 2) Gaming sector expansion, with Xbox content and services revenue up 40%, and 3) Overall revenue growth of 17%, totaling $43.1B.  
+Financial Statements Evidence: Total revenue was $43,076M for the three months ended December 31, 2020, and $80,230M for the six months, showing 17% YoY growth. Azure revenue rose 50%, and Xbox content and services revenue increased 40%."
+poly_014,"Answer: Microsoft is allocating capital through share repurchases, dividends, and strategic investments. In Q2 2021, the company repurchased $6.535B in stock and paid $4.23B in dividends, returning $10B to shareholders, up 18% year-over-year. It also expanded cloud infrastructure, with Azure revenue growing 50%, and invested $500M in Greece for data centers.
+
+Financial Statements Evidence:  
+- Common stock repurchased | (6,535 | )  
+- Common stock cash dividends paid | (4,230 | )  
+- Microsoft returned 10,000 million dollars to shareholders in the form of stock repurchases and dividends in Q2 fiscal 2021."
+poly_015,"Answer: The company's strategy for maintaining profit margins includes digital transformation via intelligent cloud and edge solutions, strategic partnerships, and high-growth investments. Microsoft's Intelligent Cloud segment reported $14.6B revenue (23% YoY growth), with Azure revenue up 50%. Commercial cloud revenue rose 34% to $16.7B. Shareholder returns totaled $10B in Q2 through buybacks and dividends, reflecting confidence in margin resilience.
+
+Financial Statements Evidence:  
+- Intelligent Cloud revenue: $14,600 million (23% YoY growth).  
+- Azure revenue growth: 50%.  
+- Commercial cloud revenue: $16,700 million (34% YoY growth).  
+- Shareholder returns: $10,000 million in the second quarter of fiscal 2021."
+poly_016,"Answer: The company spent $4,174 million on property and equipment for the three months ended December 31, 2020, and $9,081 million for the six months ended December 31, 2020. These investments support growth in cloud infrastructure, digital transformation, and AI-driven solutions, matching Azure’s 50% revenue growth and expansion into autonomous vehicles and healthcare IT.  
+
+Financial Statements Evidence:  
+(cash_flow, periods: Three Months EndedDecember 31,, Six Months EndedDecember 31,, section: Investing)  
+Additions to property and equipment | (4,174 | ) | (3,545 | ) | (9,081 | ) | (6,930 | )"
+poly_017,"Answer: The top three focuses on revenue from news are cloud computing, video games (e.g., Xbox), and productivity/business software (e.g., Office and LinkedIn).  
+Financial Statements Evidence: For the nine months ended March 31, 2021, total revenue was $121.9B. Azure grew 50% YoY, Xbox revenue rose 34%, and productivity revenue reached $13.6B, up 15%."
+poly_018,"Answer: Microsoft is allocating capital via AI/cloud investments, share repurchases, and dividends. It repurchased $20.2B in shares and paid $12.3B in dividends in nine months.  
+
+Evidence:  
+- ""Common stock repurchased | (6,930 | ) | (7,059 | ) | (20,208 | ) | (17,177 | )""  
+- ""Common stock cash dividends paid | (4,221 | ) | (3,876 | ) | (12,307 | ) | (11,272 | )"""
+poly_019,"Answer: The company aims to maintain profit margins through cloud services and digital transformation. Azure revenue grew 50% YoY, and Dynamics 365 revenue rose 45% YoY, supporting this strategy.  
+Financial Statements Evidence: Operating income was $17.0B (Three Months Ended March 31, 2021) and $50.8B (Nine Months Ended March 31, 2021). Azure revenue grew 50% YoY, and Dynamics 365 revenue increased 45% YoY."
+poly_020,"Answer: Microsoft's capital expenditures reflect its strategic focus on cloud infrastructure and AI expansion. The company spent $14.1B on property and equipment additions and $8.4B on acquisitions and intangible assets in the nine months ended March 31, 2021. This aligns with news of its $19.7B acquisition of Nuance for AI advancements and ongoing investments in cloud platforms like Azure, which grew revenues by 50% year-over-year.  
+
+Financial Statements Evidence: Additions to property and equipment: (14,170); Acquisition of companies, net of cash acquired, and purchases of intangible and other assets: (8,408)."
+poly_021,"Answer: The top three focuses on revenue in the news are aerospace, building technologies, and safety and productivity solutions.  
+Financial Statements Evidence: Aerospace sales were $3.4B (2020) and $3.3B (2019); Building Technologies sales were $1.3B (2020) and $1.4B (2019); Safety and Productivity Solutions sales were $1.4B (2020) and $1.6B (2019)."
+poly_022,"Answer: Honeywell allocated capital via share repurchases ($1.9B), dividends ($635M), and PPE investments ($139M). It boosted investments ($648M) and issued debt ($1.1B) for flexibility.  
+Financial Statements Evidence: Repurchases of common stock (1,923), Cash dividends paid (635), Expenditures for property, plant and equipment (139), Increase in investments (648), Proceeds from issuance of long-term debt (1,127)."
+poly_023,"Answer: Honeywell is managing the downturn through operational excellence, cost control, and cash generation. It holds $9B in cash and short-term investments and secured a $6B term loan and refinanced bonds at favorable rates.  
+Financial Statements Evidence: ""Cash and cash equivalents $7,721 $9,067"", ""Proceeds from issuance of commercial paper and other short-term borrowings 3,455 3,318"""
+poly_024,"Answer: Honeywell's capital expenditures for property, plant, and equipment were $139M in Q1 2020, compared to $141M in Q1 2019. These reflect ongoing investments in infrastructure, production, and demand for PPE and sustainable tech. The spending supports strategic adaptation to market needs and operational efficiency.  
+Financial Statements Evidence: ""Expenditures for property, plant and equipment | (139 | ) | (141 | )""."
+poly_025,"Answer: The top three focuses on revenue from news include: 1) Aerospace, with a 28% decline in sales to $2.5B; 2) Performance Materials and Technologies, with a 19% decline to $2.2B; and 3) Honeywell Building Technologies, with a 19% decline to $1.2B. 
+
+Financial Statements Evidence:  
+- Aerospace Sales: $2.5B (2020) vs. $3.5B (2019), a 28% decline.  
+- Performance Materials and Technologies Sales: $2.2B (2020) vs. $2.7B (2019), a 19% decline.  
+- Honeywell Building Technologies Sales: $1.2B (2020) vs. $1.5B (2019), a 19% decline."
+poly_026,"Answer: Honeywell increased capital investments in growth areas and executed cost savings. It repurchased $1.985B in stock and paid $1.285B in dividends during the six months ended June 30, 2020. The company also issued $7.101B in long-term debt as part of its capital strategy.  
+
+Financial Statements Evidence:  
+- Repurchases of common stock | (1,985)  
+- Cash dividends paid | (1,285)  
+- Proceeds from issuance of long-term debt | 7,101"
+poly_027,"Answer: Honeywell’s strategy to maintain profit margins includes cost management, sales growth in resilient sectors like defense and automation, and technology investments. The company achieved $500M in Q2 cost savings and aims for an additional $1.4–1.6B in 2020.  
+
+Financial Statements Evidence:  
+- Net income for six months ended June 30, 2020, was $2.7B.  
+- Free cash flow was $1.3B, with $746M from reduced investments.  
+- Restructuring charges were $342M, with net payments of $309M.  
+- Debt was reduced by $1.2B, and $2.0B in stock was repurchased."
+poly_028,"Answer: Honeywell's capital expenditures for property, plant, and equipment were $366M for the six months ended June 30, 2020, compared to $312M in the same period in 2019. The company highlighted strategic investments in growth areas like personal protective equipment and automation technologies to support post-pandemic recovery and operational efficiency.
+
+Financial Statements Evidence: Expenditures for property, plant and equipment | (366) | (312)"
+poly_029,"Answer: The top three focuses on revenue from news are aerospace, building technologies, and safety and productivity solutions. Aerospace revenue fell 25% organically, building technologies dropped 8%, and safety and productivity solutions rose 8%.  
+Financial Statements Evidence: Aerospace sales were $2,662 (vs. $3,544 in 2019), Building Technologies $1,305 (vs. $1,415), and Safety and Productivity Solutions $1,578 (vs. $1,457). (Income Statement, Three Months Ended September 30, 2020)"
+poly_030,"Answer: Honeywell allocated capital via share repurchases, dividends, and debt issuance. It repurchased $2.1B in common stock and paid $1.9B in dividends in the nine months ending September 30, 2020. Long-term debt issuance totaled $10.1B, and $8.6B in short-term borrowings were issued, with $8.5B repaid.
+
+Financial Statements Evidence: Repurchases of common stock | (2,149) | (3,650); Cash dividends paid | (1,921) | (1,798); Proceeds from issuance of long-term debt | 10,105 | 2,725; Proceeds from issuance of commercial paper and other short-term borrowings | 8,577 | 10,292; Payments of commercial paper and other short-term borrowings | (8,512) | (10,293)."
+poly_031,"Answer: Honeywell’s strategy for maintaining profit margins includes cost management and investing in emerging markets. The company reported $450M in cost savings during Q3 2020, contributing to a 60 basis point margin increase in Honeywell Building Technologies.
+
+Financial Statements Evidence: The cash flow statement shows $486M in repositioning charges for the nine months ended September 30, 2020, with net payments of $652M. Depreciation and amortization were $480M and $268M, respectively, reflecting cost management efforts."
+poly_032,"Answer: Honeywell's capital expenditures for property, plant, and equipment were $615M in the nine months ended September 30, 2020, compared to $504M in the same period in 2019. These investments support operational growth, particularly in emerging technologies and manufacturing. The focus aligns with goals to enhance efficiency and expand technological capabilities in key markets.
+
+Financial Statements Evidence: Expenditures for property, plant and equipment | (615) | (504)"
+poly_033,"Answer: The top three focuses on revenue from the news are: 1) Aerospace division sales rose 15%. 2) Materials and technology segment sales declined. 3) Safety and productivity solutions saw a 27% organic sales increase driven by personal protective equipment and productivity solutions.  
+Financial Statements Evidence: Aerospace sales were $36.7B, materials and technology sales were $30.3B, and safety and productivity solutions sales were $12.3B."
+poly_034,"Answer: Honeywell allocated capital through share repurchases, dividends, and strategic investments in 2020. It repurchased $3.7B in stock, paid $2.59B in dividends, and made $261M in acquisitions. Capital expenditures and M&A totaled $7.5B, slightly exceeding operating cash flow. The company held $14.3B in cash and equivalents, demonstrating financial flexibility. 
+
+Financial Statements Evidence:  
+- Repurchases of common stock: (3,714)  
+- Cash dividends paid: (2,592)  
+- Cash paid for acquisitions, net of cash acquired: (261)  
+- Cash and cash equivalents at end of period: 14,275"
+poly_035,"Answer: Honeywell is focused on cost control and productivity to maintain profit margins. It cut fixed costs by $1.5B in 2020, achieved $5.3B in free cash flow, and a 105% adjusted free cash flow conversion rate.
+
+Evidence:  
+- ""Free cash flow of $5.3 billion, adjusted free cash flow conversion rate of 105%"""
+poly_036,"Answer: Honeywell's 2020 capital expenditures were $906M, reflecting strategic investments in property, plant, and equipment to support growth in automation, aerospace, and energy transition. These investments align with innovation and market expansion goals.  
+Financial Statements Evidence: Expenditures for property, plant and equipment | (906) | (839) | (828)."
+poly_037,"Answer: The top three focuses on revenue from news are: 1) Safety and Productivity Solutions growth, driven by double-digit gains in Warehouse and Workflow Solutions and PPE; 2) Demand for building products boosting Honeywell Building Technologies; and 3) Advanced materials and connected software offsetting Aerospace challenges.  
+Financial Statements Evidence: Net sales were $8,454M in 2021 vs. $8,463M in 2020. Safety and Productivity Solutions rose 47%, while Aerospace fell 22%. Building Technologies sales increased 2%."
+poly_038,"Answer: Honeywell allocated capital through share repurchases, strategic acquisitions, and dividends, leveraging its strong balance sheet. The company repurchased $822M in shares and acquired Sparta Systems and a majority stake in Fiplex. It also made five strategic investments via Honeywell Ventures.  
+Financial Statements Evidence: Repurchases of common stock amounted to $822 million (2021) and $1,923 million (2020). Cash dividends paid totaled $640 million (2021) and $635 million (2020). Cash paid for acquisitions, net of cash acquired, was $1,303 million (2021) compared to $0 in 2020."
+poly_039,"Answer: Honeywell's strategy for maintaining profit margins includes cost management, streamlined cost base, and commercial excellence. Segment margin growth in Aerospace, Honeywell Building Technologies, and Safety and Productivity Solutions supports this.  
+
+Financial Statements Evidence:  
+- Segment margin expanded 110 basis points to 29.0% in Aerospace.  
+- Segment margin expanded 200 basis points to 22.5% in Honeywell Building Technologies.  
+- Segment margin expanded 180 basis points to 14.3% in Safety and Productivity Solutions.  
+- Operating margin for the quarter was 17.8%, with segment margin at 21.0%."
+poly_040,"Answer: Honeywell's capital expenditures for the three months ended March 31, 2021, were $221M, compared to $139M in the same period in 2020. These investments in property, plant, and equipment support strategic initiatives, including expansion in high-return markets and new product offerings. The acquisition of Sparta Systems and a majority stake in Fiplex further highlight capital allocation for growth.  
+Financial Statements Evidence: Expenditures for property, plant and equipment (221) (139)"
+poly_041,"Answer: The top three focuses on revenue from news are oncology drugs (Darzalex and Imbruvica), consumer health products (Tylenol and Motrin), and pharmaceutical innovation.  
+Financial Statements Evidence: Johnson & Johnson’s pharmaceutical segment rose 8.7% to $11.1B, led by Darzalex and Imbruvica. Consumer health sales grew 9.2% to $3.63B, driven by Tylenol and Motrin. Darzalex sales rose 49%."
+poly_042,"Answer: Johnson & Johnson allocated capital via dividends and share repurchases amid a challenging market outlook. The company paid $2.505B in dividends and spent $1.711B on repurchasing common stock in Q1 2020. It also increased its quarterly dividend to $1.01 per share, reflecting confidence in cash flow and stability.  
+
+Financial Statements Evidence:  
+- Dividends to shareholders: $2,505 million (March 29, 2020).  
+- Repurchase of common stock: $1,711 million (March 29, 2020).  
+- Cash and cash equivalents at the end of the period: $15,530 million (March 29, 2020)."
+poly_043,"Answer: Johnson & Johnson maintains profit margins through pharmaceutical growth and cost control. Q1 2020 gross profit was $13,629 million (65.9% of sales). R&D expenses were $2,580 million (12.5% of sales), down from 14.3% in Q1 2019.
+
+Evidence: lines 2–4"
+poly_044,"Answer: Johnson & Johnson's capital expenditures were $625M for the three months ended March 29, 2020, versus $656M in the same period in 2019. These reflect ongoing investment in property, plant, and equipment, supporting long-term growth, R&D, and manufacturing.  
+
+Financial Statements Evidence: Additions to property, plant and equipment: (625) (March 29, 2020) and (656) (March 31, 2019)."
+poly_045,"Answer: The top three revenue focuses from news are pharmaceutical products ($10.75M, +2.1%), consumer products ($3.30M, -7%), and medical devices ($102.2B, -21.1% for H1 2020).  
+
+Financial Statements Evidence:  
+1. **Pharmaceutical products**: ""pharmaceuticals increased sales by 2.1% to $10.75M.""  
+2. **Consumer products**: ""consumer unit generated $3.30M in revenue, 7% less than the previous year.""  
+3. **Medical devices**: ""medical devices revenue was $102.2B, down 21.1%."""
+poly_046,"Answer: Johnson & Johnson allocated capital via dividends and share repurchases despite a challenging market outlook. For the six months ended June 28, 2020, it paid $5.2B in dividends and repurchased $2.4B in common stock, showing continued shareholder returns amid declining cash reserves.  
+
+Financial Statements Evidence:  
+From the Cash Flow Statement (Six Months Ended):  
+- Dividends to shareholders: $5,164  
+- Repurchase of common stock: $2,417"
+poly_047,"Answer: Johnson & Johnson is prioritizing innovation and expanding medical device technologies to maintain profit margins. R&D and acquisitions, such as the Breakthrough Device Designation, aim to counter revenue declines.  
+
+Financial Statements Evidence:  
+- Net earnings for the six months ended June 28, 2020, were ""$9.4B, up 0.7% from $9.4B in the same period in 2019.""  
+- Gross profit dropped to $11.8B (64.1% of sales) from $13.6B (66.2% of sales) in the prior year.  
+- R&D spending was $2.7B (14.8% of sales) in Q2 2020, compared to $2.7B (13.0% of sales) in 2019."
+poly_048,"Answer: The company's capital expenditures for property, plant, and equipment were $1,287M for the six months ended June 28, 2020, compared to $1,493M for the same period in 2019. These expenditures support Johnson & Johnson's innovation in medical technologies and infrastructure, particularly in its Medical Devices segment, which advances surgical, orthopedic, and interventional solutions.  
+
+Financial Statements Evidence: Additions to property, plant and equipment: $1,287 (June 28, 2020), $1,493 (June 30, 2019)."
+poly_049,"Answer: The top three focuses on revenue from news are pharmaceuticals (cancer and autoimmune treatments), medical devices, and pandemic-related sales impacts.  
+Financial Statements Evidence: Darzalex ($1.1B, 43.7% increase), Imbruvica ($1.03B), and Stelara ($1.95B) drove pharmaceutical sales. Medical devices revenue dropped 3.6% to $6.15B. Q3 sales were $21.08B, up from $20.73B in 2019."
+poly_050,"Answer: Johnson & Johnson raised 2020 earnings guidance, citing strong pharmaceutical performance and improved market conditions. It reported $21.08B in Q3 revenue, with higher pharmaceutical sales. Capital was allocated to dividends ($7.823B) and share repurchases ($2.9B), alongside long-term debt issuance ($7.431B), despite a paused vaccine trial affecting stock.  
+
+Financial Statements Evidence:  
+- Dividends to shareholders: $7,823 (2020), $7,417 (2019)  
+- Repurchase of common stock: $2,900 (2020), $6,320 (2019)  
+- Proceeds from long-term debt: $7,431 (2020), $1 (2019)"
+poly_051,"Answer: Johnson & Johnson maintains profit margins through restructuring and cost optimization. Q3 2020 gross profit was $14.1B (66.9% margin), same as 2019’s $13.9B (66.9% margin). The company incurred $130M in Q3 restructuring costs, totaling $363M YTD, to achieve $600M–$800M in annual pre-tax savings by 2022.
+
+Evidence: lines"
+poly_052,"Answer: Johnson & Johnson's capital expenditures were $2.0B for the nine months ended September 27, 2020, versus $2.2B for the same period in 2019. These reflect investments in property, plant, and equipment, supporting research, development, and production. A $1.2B supply chain restructuring cost was incurred by September 2020 to enhance flexibility and reduce complexity.  
+
+Financial Statements Evidence: Additions to property, plant and equipment: $2,024 (Nine Months Ended September 27, 2020) and $2,238 (Nine Months Ended September 29, 2019)."
+poly_053,"Answer: The top three focuses on revenue from news are: 1) Johnson & Johnson's pharmaceutical and medical device sales, especially oncology drugs and the single-dose COVID-19 vaccine, 2) R&D investments in digital therapeutics and innovation, and 3) global expansion and supply chain optimization for mental health and vaccines.  
+
+Financial Statements Evidence: Sales in 2020 were $82.58B; R&D expenses were $12.16B, or 14.7% of sales; Q4 revenue was $22.48B, up from $20.75B in the prior year."
+poly_054,"Answer: Johnson & Johnson is allocating capital through dividends, share repurchases, and R&D and strategic acquisitions, reflecting strong performance and market outlook. The company paid $10.5B in dividends in 2020 and repurchased $3.2B in common stock. R&D spending rose to $12.2B in 2020, up 7.1% from 2019.  
+
+Financial Statements Evidence:  
+- Dividends to shareholders: $10,481 (2020), $9,917 (2019)  
+- Repurchase of common stock: $3,221 (2020), $6,746 (2019)  
+- Research and development expense: $12,159 (2020), $11,355 (2019)"
+poly_055,"Answer: Johnson & Johnson maintains profit margins via higher R&D investment in pharmaceuticals and medical devices and through its single-dose COVID-19 vaccine. Q4 2020 revenue and EPS rose above expectations, driven by oncology demand.  
+
+Financial Statements Evidence:  
+- R&D expense rose to $12.16B in 2020 (14.7% of sales) from $11.36B in 2019.  
+- Q4 revenue hit $22.48B in 2020, up from $20.75B in 2019.  
+- Q4 2020 EPS was $2.04, above estimates of $2.02."
+poly_056,"Answer: Johnson & Johnson's capital expenditures in 2020 were $3.347B, slightly lower than $3.498B in 2019. These investments support infrastructure and operational capabilities, particularly in pharmaceuticals and medical devices. Reports highlight strategic R&D investments, including the development of the COVID-19 vaccine, reinforcing long-term competitiveness.  
+Financial Statements Evidence: Additions to property, plant and equipment (2020: $3,347; 2019: $3,498)."
+poly_057,"Answer: The top three revenue focuses from news are: (1) the pharmaceutical division, contributing over 50% of total revenue, with a 10% annual increase to $12.2B; (2) medical devices, up 11% to $6.58B; (3) consumer products, down 2.3% to $3.54B.  
+Financial Statements Evidence: The income statement reports total sales of $22.3B. News details revenue by division: pharmaceuticals at $12.2B, medical devices at $6.58B, and consumer products at $3.54B."
+poly_058,"Answer: Johnson & Johnson is allocating capital via share repurchases, dividend increases, and pharmaceutical investments. In Q1 2021, the company repurchased $1.438B in stock and paid $2.659B in dividends. It raised its quarterly dividend by 5%, from $1.01 to $1.06 per share. The pharmaceutical segment grew 10% YoY to $12.2B, driven by products like Stelara.  
+
+Financial Statements Evidence:  
+- Repurchase of common stock: (1,438)  
+- Dividends to shareholders: (2,659)  
+- Diluted net earnings per share: $2.32  
+- Pharmaceutical revenue: $12.2 billion"
+poly_059,"Answer: Johnson & Johnson maintains profit margins through strong pharmaceutical sales, notably Stelara, and cost control. Despite vaccine distribution challenges, gross profit and adjusted EPS exceeded expectations.  
+Financial Statements Evidence: Sales were $22,321 million, gross profit $15,258 million, and adjusted EPS $2.59 in Q1 2021. Pharmaceuticals contributed over 50% of revenue, with $12,200 million in sales, up 10% YoY."
+poly_060,"Answer: The company reported capital expenditures of $677M for the fiscal three months ended April 4, 2021. These represent investments in property, plant, and equipment to maintain and expand operational capabilities. The spending highlights the company’s strategy to support long-term growth and key business areas, such as pharmaceuticals and R&D.  
+Financial Statements Evidence: Additions to property, plant and equipment | (677) | (625)"
+poly_061,"Answer: The top three focuses on revenue from news include: (1) Universal Corporation's shift to FDA-approved face masks during the pandemic, (2) legal/regulatory challenges in the tobacco industry, and (3) declining global tobacco production.  
+Financial Statements Evidence: Sales and other operating revenues were $1.9B in 2020, down from $2.2B in 2019. Cost of goods sold fell to $1.6B in 2020 from $1.8B in 2019."
+poly_062,"Answer: The company allocated capital via share repurchases and dividends in FY2020. It repurchased $33.5M of common stock and paid $75.4M in dividends, resulting in $94.1M net cash used in financing activities. It also reduced short-term debt by $24.1M. Despite performance declines, shareholder returns remained significant.  
+
+Financial Statements Evidence:  
+- Repurchase of common stock: $(33,457)  
+- Dividends paid on common stock: $(75,368)  
+- Net cash used by financing activities: $(94,146)"
+poly_063,"Answer: Universal Corporation maintains profit margins by leveraging its global sourcing, processing, and logistics network. It also reduced capital expenditures and bolstered employee protection amid supply chain disruptions. Gross profit dropped 12.25% to $356.8M in 2020 from $406.6M in 2019 due to foreign exchange losses and pandemic impacts.
+
+Financial Statements Evidence: Income before income taxes fell to $113,291 thousand in 2020 from $151,322 thousand in 2019. Net income declined to $78,003 thousand in 2020 from $110,134 thousand in 2019."
+poly_064,"Answer: Universal Corporation’s 2020 capital expenditures were $35.2M, directed toward property, plant, and equipment. This shows a strategic move to invest in global sourcing, processing, and logistics infrastructure to maintain competitiveness despite supply chain and currency issues.  
+
+Financial Statements Evidence: Purchase of property, plant and equipment (35,227)"
+poly_065,"Answer: The top three focuses on revenue from news are: (1) increased global tobacco sales, (2) lower sales and leaf prices impact, and (3) FruitSmart acquisition contributions.  
+Financial Statements Evidence: Sales were $315,811 (2020) vs. $296,915 (2019). Other Regions revenue was $204.7M, North America rose to $39.9M, and Other Tobacco Operations reached $71.2M, including FruitSmart."
+poly_066,"Answer: Universal Corporation allocated capital through investments in tobacco and non-tobacco businesses, share repurchases, and dividends. In Q1 fiscal 2021, it repurchased $0 of common stock but paid $0.77 per share in dividends. The company acquired FruitSmart and plans to pursue value-creating investments.
+
+Financial Statements Evidence:  
+- Dividends paid on common stock: $18,567 (Three Months Ended June 30, 2020)  
+- Repurchase of common stock: $0 (Three Months Ended June 30, 2020)  
+- Dividends declared per common share: $0.77 (Three Months Ended June 30, 2020)"
+poly_067,"Answer: Universal Corporation maintains profit margins through operational efficiency, customer/supplier relationships, and disciplined investments in tobacco and non-tobacco businesses. It balances tobacco supply, manages lower-margin crops, and addresses currency volatility and pandemic-related delays.  
+Financial Statements Evidence: Net income was $6,900 (2020) vs. $895 (2019); operating income was $8,528 (2020) vs. $7,514 (2019)."
+poly_068,"Answer: Universal Corporation reported capital expenditures of $8.4B for property, plant, and equipment during the three months ended June 30, 2020, up from $5.7B in the same period in 2019. These investments support ongoing operational capacity maintenance and expansion. The expenditures are strategically significant, underpinning global operations, particularly in tobacco production and processing, to ensure efficiency and long-term growth.
+
+Financial Statements Evidence:  
+Purchase of property, plant and equipment | (8,386 | ) | (5,679 | )"
+poly_069,"Answer: The top three revenue focuses are sales and operating revenues, PACS/VNA integration with EMR, and hybrid/cloud-based solutions.  
+Financial Statements Evidence: Sales and other operating revenues for the six months ended September 30, 2020, were $692,836, compared to $772,836 in 2019. None."
+poly_070,"Answer: Universal Corporation allocated capital via $162.65M in short-term debt issuance and $37.42M in common stock dividends. No stock was repurchased in 2020 versus $12.34M in 2019. The increase in short-term debt to $235.4M reflects strategic investments, such as the FruitSmart acquisition.  
+
+Financial Statements Evidence:  
+- Issuance of short-term debt, net: $162,646 (Six Months Ended September 30, 2020).  
+- Dividends paid on common stock: $37,424 (Six Months Ended September 30, 2020).  
+- Repurchase of common stock: $— (Six Months Ended September 30, 2020) vs. $12,338 in 2019.  
+- Short-term debt: $235,413 (Balance Sheet, September 30, 2020)."
+poly_071,"Answer: The company faces declining profit margins due to lower sales volume and falling leaf tobacco prices. No new strategy is outlined, but it monitors pandemic impacts and announced a stock repurchase program to return value to shareholders.  
+Financial Statements Evidence: Sales and other operating revenues: $377,025 (Three Months Ended September 30, 2020); Net income: $7,502 (Earnings per share: Basic $0.30, Diluted $0.30). Sales dropped 20.8% year-over-year, and net income fell 73.3%."
+poly_072,"Answer: The company's capital expenditures for the six months ended September 30, 2020, were $22,751, allocated to property, plant, and equipment. Proceeds from asset sales of $1,780 reduced the net cash used in investing activities to $20,971, indicating efforts in infrastructure maintenance and expansion.
+
+Financial Statements Evidence:  
+Purchase of property, plant and equipment | (22,751)  
+Proceeds from sale of property, plant and equipment | 1,780  
+Net cash used by investing activities | (20,971)"
+poly_073,"Answer: The top three revenue focuses are: 1) Universal Corporation's tobacco supply and global operations, 2) Expansion in plant-based ingredients through acquisitions (e.g., Silva International), and 3) Diversification into non-tobacco markets.  
+Financial Statements Evidence: ""Sales and other operating revenues... $1,365,767 (Nine Months Ended December 31, 2020)"" and ""Purchase of business, net of cash... $161,095 (Nine Months Ended December 31, 2020)."""
+poly_074,"Answer: Universal Corporation allocated capital through dividends, long-term debt, and repurchases. For the nine months ended December 31, 2020, it paid $56,301 in dividends, issued $150,000 in long-term debt, and repurchased $0 of common stock.  
+
+Evidence:  
+- Repurchase of common stock: $0  
+- Dividends paid on common stock: $56,301  
+- Net cash used by investing activities: $191,603"
+poly_075,"Answer: Universal Corporation is maintaining profit margins by expanding into non-tobacco markets like plant-based ingredients via acquisitions and mergers. In October 2020, it acquired Silva International, Inc. for $164M to strengthen its dried plant-based ingredients platform. The company also discontinued operations in the potato processing segment due to strategic incompatibility and competition. This reflects a strategy to diversify and enhance shareholder value.
+
+Financial Statements Evidence: None"
+poly_076,"Answer: The company’s capital expenditures for the nine months ended December 31, 2020, were $33.8M. These investments align with its strategy to improve operational capabilities and long-term growth. It also acquired a business for $161.1M, supporting market expansion. These expenditures are vital for development and operational efficiency.  
+Financial Statements Evidence: ""Purchase of property, plant and equipment | (33,794) | (21,692)"", ""Purchase of business, net of cash held by the business | (161,095) | —""."

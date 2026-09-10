@@ -2,8 +2,10 @@
 
 The submitted system runs on the local_qwen3_32b provider: Qwen3-32B served
 locally through Ollama as 4-bit GGUF weights, reasoning disabled, with no
-model API call at any stage (see src/providers.py). Hosted API providers were explored during development but are not part of
-the submitted system.
+model API call at any stage (see src/providers.py). The hosted-API providers
+also defined in this package — OpenRouter, direct Google and Anthropic — were
+explored during development and are NOT part of the submitted system; the
+Anthropic path is disabled outright.
 
 The provider fingerprint (provider name, model id, experiment namespace,
 sampling config) is hashed into every cache key, so no provider can reuse or

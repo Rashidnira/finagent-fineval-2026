@@ -1,0 +1,34 @@
+{
+ "cache_key": "c7dd13abb6abb9321bbec66b2eaa6ae6ba499bbd3f49b88aed210aa4fce48cd9",
+ "experiment_id": "systemD_compress_expert_test",
+ "timestamp": "2026-08-20T02:44:28.868158+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "compress_v1",
+ "config_tag": "compress_v1",
+ "system_prompt": "You rewrite financial-QA answers to be shorter without losing substance.\n\nRewrite the answer below to AT MOST 55 words total. Rules:\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Keep every key figure exactly as written: numbers, units, currencies, percentages, periods.\n- Keep quoted evidence verbatim; you may drop a less-relevant quote entirely to save words, but NEVER alter, translate, or paraphrase inside quotation marks.\n- Reuse the question's key terms in the answer wording.\n- Remove filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: What are the company's capital expenditures and their strategic significance from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: Johnson & Johnson's capital expenditures for the nine months ended September 27, 2020, were $2,024 million, compared to $2,238 million for the same period in 2019. These expenditures reflect ongoing investments in property, plant, and equipment, supporting the company's strategic initiatives in research, development, and production capabilities. The Greek news highlights a broader supply chain restructuring aimed at enhancing flexibility, reducing complexity, and improving cost competitiveness, with a total cost of around $1.2 billion incurred by September 2020.  \n\nFinancial Statements Evidence: Additions to property, plant and equipment: $2,024 (Nine Months Ended September 27, 2020) and $2,238 (Nine Months Ended September 29, 2019).",
+ "user_prompt_sha256": "9c01d937687449fff1a65f7fb8f82a1c66ed42491fda5a6e7788969fa07fb51e",
+ "user_prompt_chars": 988,
+ "task_id": "JNJ_20201023",
+ "submission_id": null,
+ "question": "What are the company's capital expenditures and their strategic significance from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: Johnson & Johnson's capital expenditures were $2,024 million for the nine months ended September 27, 2020, versus $2,238 million in 2019. These reflect investments in property, plant, and equipment, supporting strategic initiatives. The Greek news cites a $1.2 billion supply chain restructuring by September 2020 to enhance flexibility and reduce costs.\n\nFinancial Statements Evidence: Additions to property, plant and equipment: $2,024 (Nine Months Ended September 27, 2020) and $2,238 (Nine Months Ended September 29, 2019).",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 383,
+  "output_tokens": 146
+ },
+ "from_cache": false
+}

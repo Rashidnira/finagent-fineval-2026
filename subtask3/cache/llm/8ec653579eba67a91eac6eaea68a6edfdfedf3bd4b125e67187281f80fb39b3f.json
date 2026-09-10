@@ -1,0 +1,34 @@
+{
+ "cache_key": "8ec653579eba67a91eac6eaea68a6edfdfedf3bd4b125e67187281f80fb39b3f",
+ "experiment_id": "systemD_compress70_expert_test",
+ "timestamp": "2026-08-20T04:30:10.738587+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "compress70_v1",
+ "config_tag": "compress70_v1",
+ "system_prompt": "You rewrite financial-QA answers to be more concise without losing substance.\n\nRewrite the answer below to roughly 65-75 words (NEVER more than 85). Rules:\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Keep EVERY distinct fact and every key figure exactly as written: numbers, units, currencies, percentages, periods. Do not drop facts — shorten the wording around them.\n- Keep at least one verbatim evidence quote; shorten prose, not quotes. NEVER alter, translate, or paraphrase inside quotation marks.\n- Reuse the question's key terms in the answer wording.\n- Remove only filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: What are the company's capital expenditures and their strategic significance from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: The company's capital expenditures for the six months ended September 30, 2020, were $22,751, representing a significant investment in property, plant, and equipment. These expenditures were partially offset by proceeds from the sale of assets, which amounted to $1,780. The net cash used in investing activities was $20,971, highlighting the company's ongoing efforts to maintain and expand its operational infrastructure.\n\nFinancial Statements Evidence:  \nPurchase of property, plant and equipment | (22,751)  \nProceeds from sale of property, plant and equipment | 1,780  \nNet cash used by investing activities | (20,971)",
+ "user_prompt_sha256": "e71534b73d727436706bd18acae1e1810aa2a698f43c495188c55e64594bce8e",
+ "user_prompt_chars": 868,
+ "task_id": "UVV_20201105",
+ "submission_id": null,
+ "question": "What are the company's capital expenditures and their strategic significance from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: The company's capital expenditures for the six months ended September 30, 2020, were $22,751, reflecting investment in property, plant, and equipment. Proceeds from asset sales of $1,780 partially offset these costs, resulting in net cash used in investing activities of $20,971, underscoring ongoing infrastructure expansion.\n\nFinancial Statements Evidence:  \nPurchase of property, plant and equipment | (22,751)  \nProceeds from sale of property, plant and equipment | 1,780  \nNet cash used by investing activities | (20,971)",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 376,
+  "output_tokens": 139
+ },
+ "from_cache": false
+}

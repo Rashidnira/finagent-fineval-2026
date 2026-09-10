@@ -1,0 +1,14 @@
+{
+ "experiment_id": "expert_C_local_qwen3_32b_grouped_v1",
+ "n": 76,
+ "date": "2026-08-19",
+ "model": "qwen3:32b",
+ "provider": "local_qwen3_32b",
+ "system_type": "C",
+ "dataset": "expert",
+ "generation_mode": "grouped+routed",
+ "new_api_calls": 19,
+ "format_pass_rate": 1.0,
+ "numeric_grounded_rate": 0.868421052631579,
+ "quote_verbatim_rate": 1.0
+}

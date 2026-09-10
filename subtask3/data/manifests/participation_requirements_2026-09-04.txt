@@ -1,0 +1,25 @@
+SOURCE: https://www.finnlp2026sharedtask.info/  (section "03 - PARTICIPATION REQUIREMENTS")
+RETRIEVED: 2026-09-04
+NOTE: This supersedes/expands rules.txt, which recorded only the 70B clause from
+the logged-in rules page. The public site defines TWO participation tracks and
+scopes the OpenRouter requirement to the API-based track only.
+
+VERBATIM TEXT:
+
+03 - PARTICIPATION REQUIREMENTS
+
+Participants may submit either a model-based solution or an API-based
+agent/workflow solution. To ensure a fair competition, the following
+requirements apply:
+
+MODEL-BASED SOLUTIONS
+- Participants may train or fine-tune a model.
+- Data augmentation, prompt rewriting, and additional external data are allowed.
+- The submitted model must not exceed 70 billion total parameters (70B).
+
+API-BASED AGENT / WORKFLOW SOLUTIONS
+- All model API calls must be made through OpenRouter.
+- Each model used in the workflow must not exceed 70 billion total parameters (70B).
+
+Mixture-of-Experts (MoE) models: Eligibility is determined by the model's total
+parameter count, not the number of parameters activated during inference.

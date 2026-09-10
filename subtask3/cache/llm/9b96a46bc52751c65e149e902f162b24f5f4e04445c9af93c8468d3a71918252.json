@@ -1,0 +1,34 @@
+{
+ "cache_key": "9b96a46bc52751c65e149e902f162b24f5f4e04445c9af93c8468d3a71918252",
+ "experiment_id": "systemD_compress_easy_train",
+ "timestamp": "2026-08-20T02:40:44.539822+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "compress_v1",
+ "config_tag": "compress_v1",
+ "system_prompt": "You rewrite financial-QA answers to be shorter without losing substance.\n\nRewrite the answer below to AT MOST 55 words total. Rules:\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Keep every key figure exactly as written: numbers, units, currencies, percentages, periods.\n- Keep quoted evidence verbatim; you may drop a less-relevant quote entirely to save words, but NEVER alter, translate, or paraphrase inside quotation marks.\n- Reuse the question's key terms in the answer wording.\n- Remove filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: What trends can be observed in the company’s revenue amount over the past few years? Please quote the piece(s) of news aligned with the finding(s), if any.\n\nOriginal answer:\nAnswer: Microsoft's revenue increased from $33,055 million in September 2019 to $37,154 million in September 2020, reflecting a 12% growth. This trend aligns with the expansion of cloud services and demand for remote work solutions.  \nNews Evidence: \"global疫情带来的居家办公进一步助推了微软业绩...微软营收增长12%至372亿美元\" (Chinese news).",
+ "user_prompt_sha256": "dffba7e9f31c3ab8c482b4a7056d6fd52d0fe08d8ef0c2f6ebf6bc27bb0f3214",
+ "user_prompt_chars": 496,
+ "task_id": "MSFT_20201027",
+ "submission_id": null,
+ "question": "What trends can be observed in the company’s revenue amount over the past few years? Please quote the piece(s) of news aligned with the finding(s), if any.",
+ "raw_response": "Answer: Microsoft's revenue rose from $33,055 million in September 2019 to $37,154 million in September 2020, a 12% increase driven by cloud services and remote work demand.  \nNews Evidence: \"全球疫情带来的居家办公进一步助推了微软业绩...微软营收增长12%至372亿美元\"",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 299,
+  "output_tokens": 83
+ },
+ "from_cache": false
+}

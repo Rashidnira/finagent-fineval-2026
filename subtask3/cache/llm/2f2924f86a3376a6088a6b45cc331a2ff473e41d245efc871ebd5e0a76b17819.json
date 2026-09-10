@@ -1,0 +1,34 @@
+{
+ "cache_key": "2f2924f86a3376a6088a6b45cc331a2ff473e41d245efc871ebd5e0a76b17819",
+ "experiment_id": "systemD_compress_strict",
+ "timestamp": "2026-08-20T02:46:36.411063+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "compress_v2_strict",
+ "config_tag": "compress_v2_strict",
+ "system_prompt": "Rewrite the answer below to AT MOST 45 words total. Keep the exact labeled structure (Answer: / ... Evidence: lines), keep every figure exactly as written, keep at most ONE short verbatim quote (drop the rest; never alter or translate inside quotation marks). Output ONLY the rewritten answer.",
+ "user_prompt": "Question: What is the company’s strategy on navigating maintaining profit margins from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: The company uses cloud services, especially Azure and Microsoft 365, to maintain profit margins. Azure revenue grew 59% YoY, and total revenue increased 15%, with net income up 22%.  \n\nFinancial Statements Evidence:  \n- Net income for the three months ended March 31, 2020, was $10,752 million, a 22% increase compared to $8,809 million in the same period in 2019.  \n- Total revenue for the three months ended March 31, 2020, was $35,021 million, a 15% increase compared to $30,571 million in the same period in 2019.  \n- Intelligent Cloud revenue was $12,300 million, a 27% increase compared to $9,680 million in the same period in 2019.  \n- Azure revenue grew by 59% year-over-year.",
+ "user_prompt_sha256": "199d2da7487b7ee5eb41ddef6185c30d58f377e9b90f112382b6f74ac6a95af3",
+ "user_prompt_chars": 924,
+ "task_id": "MSFT_20200429",
+ "submission_id": null,
+ "question": "What is the company’s strategy on navigating maintaining profit margins from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: The company leverages Azure and Microsoft 365 to sustain profit margins. Azure revenue grew 59% YoY, total revenue rose 15%, and net income increased 22%.  \n\nEvidence:  \n- Net income was $10,752 million, up 22% YoY.  \n- Total revenue was $35,021 million, up 15% YoY.  \n- Intelligent Cloud revenue was $12,300 million, up 27% YoY.  \n- \"Azure revenue grew by 59% year-over-year.\"",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 338,
+  "output_tokens": 129
+ },
+ "from_cache": false
+}

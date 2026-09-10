@@ -1,0 +1,50 @@
+[easy_C_gemma4_31b_grouped_v1] HON_20200501 grouped f1(A)=0.380 f1(B)=0.366
+[easy_C_gemma4_31b_grouped_v1] HON_20200724 grouped f1(A)=0.465 f1(B)=0.475
+[easy_C_gemma4_31b_grouped_v1] HON_20201030 oversize for 16k/min bucket (est 17014 tok) — routing to per-question calls
+[easy_C_gemma4_31b_grouped_v1] HON_20201030 single_oversize f1(A)=0.659 f1(B)=0.637
+[easy_C_gemma4_31b_grouped_v1] HON_20210212 grouped f1(A)=0.535 f1(B)=0.537
+    [rate-limit] 429; sleeping 75s (attempt 1/8)
+[easy_C_gemma4_31b_grouped_v1] HON_20210423 grouped f1(A)=0.382 f1(B)=0.347
+[easy_C_gemma4_31b_grouped_v1] JNJ_20200429 oversize for 16k/min bucket (est 18025 tok) — routing to per-question calls
+    [rate-limit] 429; sleeping 75s (attempt 1/8)
+[easy_C_gemma4_31b_grouped_v1] JNJ_20200429 single_oversize f1(A)=0.284 f1(B)=0.304
+[easy_C_gemma4_31b_grouped_v1] JNJ_20200724 grouped f1(A)=0.412 f1(B)=0.400
+[easy_C_gemma4_31b_grouped_v1] JNJ_20201023 grouped f1(A)=0.461 f1(B)=0.435
+[easy_C_gemma4_31b_grouped_v1] JNJ_20210222 grouped f1(A)=0.353 f1(B)=0.383
+[easy_C_gemma4_31b_grouped_v1] JNJ_20210430 grouped f1(A)=0.363 f1(B)=0.376
+[easy_C_gemma4_31b_grouped_v1] MSFT_20200429 grouped f1(A)=0.434 f1(B)=0.455
+[easy_C_gemma4_31b_grouped_v1] MSFT_20200730 grouped f1(A)=0.483 f1(B)=0.534
+[easy_C_gemma4_31b_grouped_v1] MSFT_20201027 grouped f1(A)=0.491 f1(B)=0.515
+[easy_C_gemma4_31b_grouped_v1] MSFT_20210126 grouped f1(A)=0.527 f1(B)=0.506
+[easy_C_gemma4_31b_grouped_v1] MSFT_20210427 grouped f1(A)=0.215 f1(B)=0.226
+[easy_C_gemma4_31b_grouped_v1] UVV_20200528 grouped f1(A)=0.500 f1(B)=0.485
+[easy_C_gemma4_31b_grouped_v1] UVV_20200805 parse failure (v1): unparsed answers for ids ['UVV_20200805__Revenue', 'UVV_20200805__BalanceSheet', 'UVV_20200805__CashFlow', 'UVV_20200805__RnD']
+[easy_C_gemma4_31b_grouped_v1] UVV_20200805 grouped f1(A)=0.566 f1(B)=0.587
+[easy_C_gemma4_31b_grouped_v1] UVV_20201105 grouped f1(A)=0.536 f1(B)=0.509
+[easy_C_gemma4_31b_grouped_v1] UVV_20210208 grouped f1(A)=0.581 f1(B)=0.606
+
+=== AGGREGATE ===
+{
+ "experiment_id": "easy_C_gemma4_31b_grouped_v1",
+ "n": 76,
+ "date": "2026-08-19",
+ "model": "gemma-4-31b-it",
+ "system_type": "C",
+ "dataset": "easy",
+ "generation_mode": "grouped+routed",
+ "new_api_calls": 24,
+ "multifinben_default_f1": 0.45400243627961795,
+ "multifinben_default_p": 0.47778742213860004,
+ "multifinben_default_r": 0.4776088032202004,
+ "finmmeval_multiscript_f1": 0.457095418260909,
+ "finmmeval_multiscript_p": 0.483539248646657,
+ "finmmeval_multiscript_r": 0.48645456268559645,
+ "format_pass_rate": 0.9868421052631579,
+ "numeric_grounded_rate": 1.0,
+ "quote_verbatim_rate": 0.9736842105263158
+}
+
+=== PER-TASK FAILURE LIST ===
+     task_id  n_flagged                         flags
+UVV_20200805          2 over_length;unverbatim_quotes
+UVV_20201105          1             unverbatim_quotes

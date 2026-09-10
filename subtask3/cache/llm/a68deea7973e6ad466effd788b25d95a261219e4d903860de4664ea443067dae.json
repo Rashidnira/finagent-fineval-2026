@@ -1,0 +1,34 @@
+{
+ "cache_key": "a68deea7973e6ad466effd788b25d95a261219e4d903860de4664ea443067dae",
+ "experiment_id": "systemD_compress_easy_train",
+ "timestamp": "2026-08-20T02:40:48.904744+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "compress_v1",
+ "config_tag": "compress_v1",
+ "system_prompt": "You rewrite financial-QA answers to be shorter without losing substance.\n\nRewrite the answer below to AT MOST 55 words total. Rules:\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Keep every key figure exactly as written: numbers, units, currencies, percentages, periods.\n- Keep quoted evidence verbatim; you may drop a less-relevant quote entirely to save words, but NEVER alter, translate, or paraphrase inside quotation marks.\n- Reuse the question's key terms in the answer wording.\n- Remove filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: Are there any significant changes or irregularities in the amount of operating, investing and financing cash flow? Please quote the piece(s) of news aligned with the finding(s), if any.\n\nOriginal answer:\nAnswer: Microsoft reported net cash from operations of $19,335 million for the three months ended September 30, 2020, a significant increase from $13,818 million in the same period in 2019. Net cash used in investing was $5,371 million, higher than $1,776 million in the prior year. Net cash used in financing was $10,289 million, a slight increase from $10,209 million in 2019. These changes reflect strong operational performance and continued investment.  \nNews Evidence: \"Microsoft anunció este martes que entre julio y septiembre obtuvo unos beneficios netos de 13.893 millones de dólares, un 30 % más que en el mismo período del ejercicio anterior, aupado por su plataforma de computación en la nube.\"",
+ "user_prompt_sha256": "f47f17f09140c97420b2d06a78bb26b37d88806ff157c26d8fababf688446c29",
+ "user_prompt_chars": 921,
+ "task_id": "MSFT_20201027",
+ "submission_id": null,
+ "question": "Are there any significant changes or irregularities in the amount of operating, investing and financing cash flow? Please quote the piece(s) of news aligned with the finding(s), if any.",
+ "raw_response": "Answer: Microsoft’s operating cash flow rose to $19,335 million (vs. $13,818 million in 2019), while investing cash outflows increased to $5,371 million (vs. $1,776 million). Financing outflows were $10,289 million (vs. $10,209 million).  \nNews Evidence: \"Microsoft anunció este martes que entre julio y septiembre obtuvo unos beneficios netos de 13.893 millones de dólares, un 30 % más que en el mismo período del ejercicio anterior, aupado por su plataforma de computación en la nube.\"",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 399,
+  "output_tokens": 150
+ },
+ "from_cache": false
+}

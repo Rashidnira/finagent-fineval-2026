@@ -15,6 +15,7 @@ Legacy paths, retained for provenance only:
 - google_gemma: the previous direct Gemini-API implementation
   (LEGACY_EXPLORATORY — not for competition inference; its prior cached
   results are preserved untouched).
+- anthropic: DISABLED_FOR_COMPETITION_INFERENCE.
 """
 import os
 import re
@@ -54,6 +55,9 @@ GEMMA_GEN_CONFIG = {
 class MissingCredentialsError(RuntimeError):
     pass
 
+
+class ProviderDisabledError(RuntimeError):
+    pass
 
 
 class ModelUnavailableError(RuntimeError):
@@ -549,6 +553,23 @@ class GoogleGemmaProvider:
         return resp.total_tokens
 
 
+class AnthropicProviderDisabled:
+    """DISABLED_FOR_COMPETITION_INFERENCE.
+
+    Historical scaffolding (see git history: src/generator.py pre-migration).
+    claude-sonnet-5 has an undisclosed parameter count and is ineligible under
+    the 70B rule; it must never generate competition answers.
+    """
+
+    name = "anthropic_DISABLED"
+
+    def __init__(self, *a, **kw):
+        raise ProviderDisabledError(
+            "The Anthropic provider is DISABLED_FOR_COMPETITION_INFERENCE "
+            "(undisclosed parameter count; 70B rule). Use provider "
+            "'google_gemma'.")
+
+
 PROVIDERS = {
     "openrouter_gemma": OpenRouterGemmaProvider,       # COMPETITION candidate
     "openrouter_gemma4_26b_a4b": OpenRouterGemma26bProvider,  # COMPETITION candidate
@@ -557,6 +578,7 @@ PROVIDERS = {
     "local_gemma4_31b": LocalGemmaProvider,            # COMPETITION candidate (self-hosted)
     "local_nemotron_49b": LocalNemotronProvider,       # COMPETITION candidate (self-hosted)
     "google_gemma": GoogleGemmaProvider,               # LEGACY_EXPLORATORY only
+    "anthropic": AnthropicProviderDisabled,            # DISABLED
 }
 
 

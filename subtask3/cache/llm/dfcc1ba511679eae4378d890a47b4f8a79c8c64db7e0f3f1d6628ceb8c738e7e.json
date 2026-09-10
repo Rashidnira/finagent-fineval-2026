@@ -1,0 +1,34 @@
+{
+ "cache_key": "dfcc1ba511679eae4378d890a47b4f8a79c8c64db7e0f3f1d6628ceb8c738e7e",
+ "experiment_id": "systemD_rewrite_en_local_qwen3_32b",
+ "timestamp": "2026-08-20T18:58:50.874029+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "rewrite_en60_v1",
+ "config_tag": "rewrite_en60_v1",
+ "system_prompt": "You rewrite financial-QA answers to a strict house style.\n\nRewrite the answer below. Rules:\n- Target 55-65 words total, NEVER more than 75.\n- ENGLISH ONLY. If the answer contains any Chinese, Japanese, Greek, or Spanish text (including quotes), replace it with a faithful English rendering of the same information. No non-Latin characters may remain.\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Write monetary amounts compactly: $27.2B, $416M, $3.5M — but ONLY when the magnitude is clear from the original wording (e.g. \"US$14,014 million\" -> \"$14.0B\"). If the scale of a raw number is not explicit, keep it unchanged. Never alter what a number means. Keep percentages as printed (e.g. 18.6%).\n- Keep every distinct fact. Reuse the question's key terms in the wording.\n- Remove filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: Please list the top three focuses on revenue from news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: The top three focuses on revenue from the news are pharmaceutical products (US$10.752 million, +2.1%), consumer products (US$3.296 million, -7%), and medical devices (US$102.2 billion, -21.1% for the first half of 2020).  \n\nFinancial Statements Evidence: \n1. **Pharmaceutical products**: \"pharmaceuticals increased sales by 2.1% to US$10.752 million.\"\n2. **Consumer products**: \"consumer unit generated US$3.296 million in revenue, 7% less than the previous year.\"\n3. **Medical devices**: \"medical devices revenue was US$102.2 billion, down 21.1%.\"",
+ "user_prompt_sha256": "8177627b442f6508722576df62e00ee94993d3baa1e4a6631d06964ce5ca3163",
+ "user_prompt_chars": 757,
+ "task_id": "JNJ_20200724",
+ "submission_id": null,
+ "question": "Please list the top three focuses on revenue from news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: The top three revenue focuses from news are pharmaceutical products ($10.75M, +2.1%), consumer products ($3.30M, -7%), and medical devices ($102.2B, -21.1% for H1 2020).  \n\nFinancial Statements Evidence:  \n1. **Pharmaceutical products**: \"pharmaceuticals increased sales by 2.1% to $10.75M.\"  \n2. **Consumer products**: \"consumer unit generated $3.30M in revenue, 7% less than the previous year.\"  \n3. **Medical devices**: \"medical devices revenue was $102.2B, down 21.1%.\"",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 471,
+  "output_tokens": 157
+ },
+ "from_cache": false
+}

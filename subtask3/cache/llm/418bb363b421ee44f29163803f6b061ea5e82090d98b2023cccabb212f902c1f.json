@@ -1,0 +1,34 @@
+{
+ "cache_key": "418bb363b421ee44f29163803f6b061ea5e82090d98b2023cccabb212f902c1f",
+ "experiment_id": "systemD_rewrite_en_local_qwen3_32b",
+ "timestamp": "2026-08-20T19:00:02.241245+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "rewrite_en60_v1",
+ "config_tag": "rewrite_en60_v1",
+ "system_prompt": "You rewrite financial-QA answers to a strict house style.\n\nRewrite the answer below. Rules:\n- Target 55-65 words total, NEVER more than 75.\n- ENGLISH ONLY. If the answer contains any Chinese, Japanese, Greek, or Spanish text (including quotes), replace it with a faithful English rendering of the same information. No non-Latin characters may remain.\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Write monetary amounts compactly: $27.2B, $416M, $3.5M — but ONLY when the magnitude is clear from the original wording (e.g. \"US$14,014 million\" -> \"$14.0B\"). If the scale of a raw number is not explicit, keep it unchanged. Never alter what a number means. Keep percentages as printed (e.g. 18.6%).\n- Keep every distinct fact. Reuse the question's key terms in the wording.\n- Remove filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: What are the company's capital expenditures and their strategic significance from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: Universal Corporation reported capital expenditures of $8,386 million for property, plant, and equipment during the three months ended June 30, 2020, compared to $5,679 million in the same period in 2019. These investments likely reflect ongoing efforts to maintain and expand operational capacity. The expenditures are strategically significant as they support the company's global operations, particularly in tobacco production and processing, ensuring efficiency and long-term growth.  \n\nFinancial Statements Evidence:  \nPurchase of property, plant and equipment | (8,386 | ) | (5,679 | )",
+ "user_prompt_sha256": "c7fbfb67b56a1dab01c5104051fb3045700369f673c947959d34c1edf4ccd295",
+ "user_prompt_chars": 836,
+ "task_id": "UVV_20200805",
+ "submission_id": null,
+ "question": "What are the company's capital expenditures and their strategic significance from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: Universal Corporation reported capital expenditures of $8.4B for property, plant, and equipment during the three months ended June 30, 2020, up from $5.7B in the same period in 2019. These investments support ongoing operational capacity maintenance and expansion. The expenditures are strategically significant, underpinning global operations, particularly in tobacco production and processing, to ensure efficiency and long-term growth.\n\nFinancial Statements Evidence:  \nPurchase of property, plant and equipment | (8,386 | ) | (5,679 | )",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 434,
+  "output_tokens": 122
+ },
+ "from_cache": false
+}

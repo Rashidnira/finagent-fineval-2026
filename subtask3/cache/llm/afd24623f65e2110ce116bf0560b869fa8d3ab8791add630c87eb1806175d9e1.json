@@ -1,0 +1,34 @@
+{
+ "cache_key": "afd24623f65e2110ce116bf0560b869fa8d3ab8791add630c87eb1806175d9e1",
+ "experiment_id": "systemD_compress_expert_test",
+ "timestamp": "2026-08-20T02:43:10.765719+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "compress_v1",
+ "config_tag": "compress_v1",
+ "system_prompt": "You rewrite financial-QA answers to be shorter without losing substance.\n\nRewrite the answer below to AT MOST 55 words total. Rules:\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Keep every key figure exactly as written: numbers, units, currencies, percentages, periods.\n- Keep quoted evidence verbatim; you may drop a less-relevant quote entirely to save words, but NEVER alter, translate, or paraphrase inside quotation marks.\n- Reuse the question's key terms in the answer wording.\n- Remove filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: How is the company allocating capital (e.g., investments, share repurchases, dividends) based on its performance and market outlook from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: Honeywell allocated capital through share repurchases ($1,923M), dividends ($635M), and investing in property, plant, and equipment ($139M). It also increased investments ($648M) and issued long-term debt ($1,127M) for financial flexibility.  \nFinancial Statements Evidence: Repurchases of common stock (1,923), Cash dividends paid (635), Expenditures for property, plant and equipment (139), Increase in investments (648), Proceeds from issuance of long-term debt (1,127).",
+ "user_prompt_sha256": "11c37c95f241cb8d6cca4346facab776f39b6103fefd8a60b580ee54383750a4",
+ "user_prompt_chars": 773,
+ "task_id": "HON_20200501",
+ "submission_id": null,
+ "question": "How is the company allocating capital (e.g., investments, share repurchases, dividends) based on its performance and market outlook from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: Honeywell allocated capital via share repurchases ($1,923M), dividends ($635M), and PPE investments ($139M). It increased investments ($648M) and issued debt ($1,127M) for flexibility.  \nFinancial Statements Evidence: Repurchases of common stock (1,923), Cash dividends paid (635), Expenditures for property, plant and equipment (139), Increase in investments (648), Proceeds from issuance of long-term debt (1,127).",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 346,
+  "output_tokens": 121
+ },
+ "from_cache": false
+}

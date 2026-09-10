@@ -1,0 +1,34 @@
+{
+ "cache_key": "bf3c1fc981aa3041a379ef195fab96f1a27ec5ef0f3f2a6a3cb904270c94b8a1",
+ "experiment_id": "systemD_rewrite_en_local_qwen3_32b",
+ "timestamp": "2026-08-20T18:56:44.767421+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "rewrite_en60_v1",
+ "config_tag": "rewrite_en60_v1",
+ "system_prompt": "You rewrite financial-QA answers to a strict house style.\n\nRewrite the answer below. Rules:\n- Target 55-65 words total, NEVER more than 75.\n- ENGLISH ONLY. If the answer contains any Chinese, Japanese, Greek, or Spanish text (including quotes), replace it with a faithful English rendering of the same information. No non-Latin characters may remain.\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Write monetary amounts compactly: $27.2B, $416M, $3.5M — but ONLY when the magnitude is clear from the original wording (e.g. \"US$14,014 million\" -> \"$14.0B\"). If the scale of a raw number is not explicit, keep it unchanged. Never alter what a number means. Keep percentages as printed (e.g. 18.6%).\n- Keep every distinct fact. Reuse the question's key terms in the wording.\n- Remove filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: What is the company’s strategy on navigating maintaining profit margins from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: The company is leveraging its cloud services, particularly Azure and Microsoft 365, to maintain and improve profit margins. The increased demand for cloud infrastructure and remote work solutions has driven revenue growth, with Azure showing a 59% year-over-year revenue increase. Additionally, the company is managing costs through operational efficiency, as evidenced by a 15% increase in total revenue and a 22% increase in net income for the quarter.  \n\nFinancial Statements Evidence:  \n- Net income for the three months ended March 31, 2020, was $10,752 million, a 22% increase compared to $8,809 million in the same period in 2019.  \n- Total revenue for the three months ended March 31, 2020, was $35,021 million, a 15% increase compared to $30,571 million in the same period in 2019.  \n- Intelligent Cloud revenue was $12,300 million, a 27% increase compared to $9,680 million in the same period in 2019.  \n- Azure revenue grew by 59% year-over-year.",
+ "user_prompt_sha256": "bb09f31e5f61e44fa8c88f59a61d829d25598696e56fa2f7d8b4ed7f0a2843b9",
+ "user_prompt_chars": 1197,
+ "task_id": "MSFT_20200429",
+ "submission_id": null,
+ "question": "What is the company’s strategy on navigating maintaining profit margins from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: The company is leveraging cloud services, especially Azure and Microsoft 365, to sustain profit margins. Rising demand for cloud and remote work solutions drove revenue growth, with Azure up 59% year-over-year. Cost management via operational efficiency is reflected in a 15% revenue increase and 22% higher net income for the quarter.  \n\nFinancial Statements Evidence:  \n- Net income for the three months ended March 31, 2020, was $10.8B, a 22% increase from $8.8B in the same period in 2019.  \n- Total revenue for the three months ended March 31, 2020, was $35.0B, a 15% increase from $30.6B in the same period in 2019.  \n- Intelligent Cloud revenue was $12.3B, up 27% from $9.7B in the same period in 2019.  \n- Azure revenue grew by 59% year-over-year.",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 569,
+  "output_tokens": 231
+ },
+ "from_cache": false
+}

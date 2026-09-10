@@ -1,0 +1,34 @@
+{
+ "cache_key": "608aa06f7068663561f09afd7205c5b6328a375c4b9f97018e6475ef0c729bdf",
+ "experiment_id": "systemD_compress70_expert_test",
+ "timestamp": "2026-08-20T04:27:18.807389+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "compress70_v1",
+ "config_tag": "compress70_v1",
+ "system_prompt": "You rewrite financial-QA answers to be more concise without losing substance.\n\nRewrite the answer below to roughly 65-75 words (NEVER more than 85). Rules:\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Keep EVERY distinct fact and every key figure exactly as written: numbers, units, currencies, percentages, periods. Do not drop facts — shorten the wording around them.\n- Keep at least one verbatim evidence quote; shorten prose, not quotes. NEVER alter, translate, or paraphrase inside quotation marks.\n- Reuse the question's key terms in the answer wording.\n- Remove only filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: What is the company’s strategy on navigating maintaining profit margins from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: Johnson & Johnson is maintaining profit margins through increased R&D investments, particularly in pharmaceuticals and medical devices, and through the development of the single-dose COVID-19 vaccine. The company also reported higher-than-expected Q4 revenue and EPS, driven by oncology drug demand.  \n\nFinancial Statements Evidence:  \n- Research and development expense increased to $12,159 million in 2020 (14.7% of total sales) from $11,355 million in 2019.  \n- Q4 revenue reached $22.48 billion in 2020, up from $20.75 billion in the same period in 2019.  \n- EPS for Q4 2020 was $2.04, exceeding market expectations of $2.02.",
+ "user_prompt_sha256": "8e4afc599d86345e3747e8d816266a7484ed697d07d83a4efaab5c8f25a747f6",
+ "user_prompt_chars": 869,
+ "task_id": "JNJ_20210222",
+ "submission_id": null,
+ "question": "What is the company’s strategy on navigating maintaining profit margins from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: Johnson & Johnson maintains profit margins via R&D investments, especially in pharmaceuticals and medical devices, and through its single-dose COVID-19 vaccine. Higher-than-expected Q4 2020 revenue and EPS reflect strong oncology drug demand.  \n\nFinancial Statements Evidence:  \n- R&D expense rose to $12,159 million in 2020 (14.7% of total sales) from $11,355 million in 2019.  \n- Q4 revenue was $22.48 billion in 2020, up from $20.75 billion in 2019.  \n- Q4 2020 EPS was $2.04, above expectations of $2.02.",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 404,
+  "output_tokens": 169
+ },
+ "from_cache": false
+}

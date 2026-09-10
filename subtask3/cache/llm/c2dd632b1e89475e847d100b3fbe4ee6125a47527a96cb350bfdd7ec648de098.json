@@ -1,0 +1,34 @@
+{
+ "cache_key": "c2dd632b1e89475e847d100b3fbe4ee6125a47527a96cb350bfdd7ec648de098",
+ "experiment_id": "fix_nonlatin",
+ "timestamp": "2026-08-20T19:02:19.661005+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "fix_nonlatin_v1",
+ "config_tag": "fix_nonlatin_v1",
+ "system_prompt": "The answer below contains non-English text (Chinese, Japanese, Greek, or Spanish). Rewrite it in ENGLISH ONLY, at most 70 words: translate the non-English parts faithfully into English prose (no quotation marks around translations), keep the labeled structure (Answer: / ... Evidence: lines), keep all figures exactly. Not a single non-Latin character may remain. Output ONLY the rewritten answer.",
+ "user_prompt": "Original answer:\nAnswer: The top three revenue focuses are: 1) Universal Corporation’s tobacco supply and global operations, 2) Expansion in plant-based ingredients via acquisitions (e.g., Silva International), and 3) Diversification into non-tobacco markets.  \nFinancial Statements Evidence: \"Sales and other operating revenues... $1,365,767 (Nine Months Ended December 31, 2020)\" and \"Purchase of business, net of cash... $161,095 (Nine Months Ended December 31, 2020).\"",
+ "user_prompt_sha256": "613de7b1c81ff068640c9d281202e03aa98ef77fd8d881b648b167f5114f0ce4",
+ "user_prompt_chars": 472,
+ "task_id": "UVV_20210208",
+ "submission_id": null,
+ "question": "Please list the top three focuses on revenue from news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: The top three revenue focuses are: 1) Universal Corporation's tobacco supply and global operations, 2) Expansion in plant-based ingredients through acquisitions (e.g., Silva International), and 3) Diversification into non-tobacco markets.  \nFinancial Statements Evidence: \"Sales and other operating revenues... $1,365,767 (Nine Months Ended December 31, 2020)\" and \"Purchase of business, net of cash... $161,095 (Nine Months Ended December 31, 2020).\"",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 224,
+  "output_tokens": 123
+ },
+ "from_cache": false
+}

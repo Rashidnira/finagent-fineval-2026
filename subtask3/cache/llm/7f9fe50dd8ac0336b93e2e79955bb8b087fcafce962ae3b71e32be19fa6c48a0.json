@@ -1,0 +1,34 @@
+{
+ "cache_key": "7f9fe50dd8ac0336b93e2e79955bb8b087fcafce962ae3b71e32be19fa6c48a0",
+ "experiment_id": "systemD_compress_expert_test",
+ "timestamp": "2026-08-20T02:43:52.675962+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "compress_v1",
+ "config_tag": "compress_v1",
+ "system_prompt": "You rewrite financial-QA answers to be shorter without losing substance.\n\nRewrite the answer below to AT MOST 55 words total. Rules:\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Keep every key figure exactly as written: numbers, units, currencies, percentages, periods.\n- Keep quoted evidence verbatim; you may drop a less-relevant quote entirely to save words, but NEVER alter, translate, or paraphrase inside quotation marks.\n- Reuse the question's key terms in the answer wording.\n- Remove filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: What are the company's capital expenditures and their strategic significance from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: Honeywell's capital expenditures for the three months ended March 31, 2021, were $221 million, compared to $139 million in the same period in 2020. These expenditures reflect the company's ongoing investments in property, plant, and equipment to support its strategic initiatives, including the expansion of high-return opportunities and new product offerings in growing markets like life sciences. The company also announced the acquisition of Sparta Systems and a majority stake in Fiplex, demonstrating its strategic use of capital for growth.  \nFinancial Statements Evidence: Expenditures for property, plant and equipment (221) (139)",
+ "user_prompt_sha256": "5d24d793e6f7a354f7e28f0450e89000f1bdcef8e061bd76df1b1b87cd97db1d",
+ "user_prompt_chars": 883,
+ "task_id": "HON_20210423",
+ "submission_id": null,
+ "question": "What are the company's capital expenditures and their strategic significance from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: Honeywell's capital expenditures for the three months ended March 31, 2021, were $221 million, up from $139 million in the same period in 2020. These reflect investments in property, plant, and equipment to support strategic initiatives, including expansion in growing markets.  \nFinancial Statements Evidence: Expenditures for property, plant and equipment (221) (139)",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 342,
+  "output_tokens": 94
+ },
+ "from_cache": false
+}
