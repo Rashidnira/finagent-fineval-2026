@@ -1,0 +1,34 @@
+{
+ "cache_key": "b9fc2e9c2e8eb49ce56e836164ad64cb34f60ee76fa9a9d3c3f81982edf4efb3",
+ "experiment_id": "systemD_compress70_expert_test",
+ "timestamp": "2026-08-20T04:28:07.503632+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "compress70_v1",
+ "config_tag": "compress70_v1",
+ "system_prompt": "You rewrite financial-QA answers to be more concise without losing substance.\n\nRewrite the answer below to roughly 65-75 words (NEVER more than 85). Rules:\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Keep EVERY distinct fact and every key figure exactly as written: numbers, units, currencies, percentages, periods. Do not drop facts — shorten the wording around them.\n- Keep at least one verbatim evidence quote; shorten prose, not quotes. NEVER alter, translate, or paraphrase inside quotation marks.\n- Reuse the question's key terms in the answer wording.\n- Remove only filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: What are the company's capital expenditures and their strategic significance from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: The company reported capital expenditures of $677 million for the fiscal three months ended April 4, 2021. These expenditures reflect the company’s ongoing investment in property, plant, and equipment, which is essential for maintaining and expanding its operational capabilities. The strategic significance lies in the company's focus on sustaining long-term growth and supporting its diverse business segments, particularly in pharmaceuticals and research & development.  \nFinancial Statements Evidence: Additions to property, plant and equipment | (677) | (625)",
+ "user_prompt_sha256": "95b182689a863cbcfe3a3dbc8bc8c04e1ab9fcaee81e6ab19f310abb1d5d65a3",
+ "user_prompt_chars": 809,
+ "task_id": "JNJ_20210430",
+ "submission_id": null,
+ "question": "What are the company's capital expenditures and their strategic significance from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: The company reported capital expenditures of $677 million for the fiscal three months ended April 4, 2021, reflecting investment in property, plant, and equipment. These expenditures support operational expansion and long-term growth, particularly in pharmaceuticals and R&D.  \nFinancial Statements Evidence: Additions to property, plant and equipment | (677) | (625)",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 335,
+  "output_tokens": 83
+ },
+ "from_cache": false
+}

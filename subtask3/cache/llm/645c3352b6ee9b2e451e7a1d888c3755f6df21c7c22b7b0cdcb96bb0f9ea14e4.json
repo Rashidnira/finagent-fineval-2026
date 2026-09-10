@@ -1,0 +1,34 @@
+{
+ "cache_key": "645c3352b6ee9b2e451e7a1d888c3755f6df21c7c22b7b0cdcb96bb0f9ea14e4",
+ "experiment_id": "systemD_compress_expert_test",
+ "timestamp": "2026-08-20T02:42:25.094262+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "compress_v1",
+ "config_tag": "compress_v1",
+ "system_prompt": "You rewrite financial-QA answers to be shorter without losing substance.\n\nRewrite the answer below to AT MOST 55 words total. Rules:\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Keep every key figure exactly as written: numbers, units, currencies, percentages, periods.\n- Keep quoted evidence verbatim; you may drop a less-relevant quote entirely to save words, but NEVER alter, translate, or paraphrase inside quotation marks.\n- Reuse the question's key terms in the answer wording.\n- Remove filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: What is the company’s strategy on navigating maintaining profit margins from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: The company is leveraging its cloud services, particularly Azure and Microsoft 365, to maintain and improve profit margins. The increased demand for cloud infrastructure and remote work solutions has driven revenue growth, with Azure showing a 59% year-over-year revenue increase. Additionally, the company is managing costs through operational efficiency, as evidenced by a 15% increase in total revenue and a 22% increase in net income for the quarter.  \n\nFinancial Statements Evidence:  \n- Net income for the three months ended March 31, 2020, was $10,752 million, a 22% increase compared to $8,809 million in the same period in 2019.  \n- Total revenue for the three months ended March 31, 2020, was $35,021 million, a 15% increase compared to $30,571 million in the same period in 2019.  \n- Intelligent Cloud revenue was $12,300 million, a 27% increase compared to $9,680 million in the same period in 2019.  \n- Azure revenue grew by 59% year-over-year.",
+ "user_prompt_sha256": "bb09f31e5f61e44fa8c88f59a61d829d25598696e56fa2f7d8b4ed7f0a2843b9",
+ "user_prompt_chars": 1197,
+ "task_id": "MSFT_20200429",
+ "submission_id": null,
+ "question": "What is the company’s strategy on navigating maintaining profit margins from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: The company uses cloud services, especially Azure and Microsoft 365, to maintain profit margins. Azure revenue grew 59% YoY, and total revenue increased 15%, with net income up 22%.  \n\nFinancial Statements Evidence:  \n- Net income for the three months ended March 31, 2020, was $10,752 million, a 22% increase compared to $8,809 million in the same period in 2019.  \n- Total revenue for the three months ended March 31, 2020, was $35,021 million, a 15% increase compared to $30,571 million in the same period in 2019.  \n- Intelligent Cloud revenue was $12,300 million, a 27% increase compared to $9,680 million in the same period in 2019.  \n- Azure revenue grew by 59% year-over-year.",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 468,
+  "output_tokens": 222
+ },
+ "from_cache": false
+}

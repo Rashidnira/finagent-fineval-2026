@@ -1,0 +1,34 @@
+{
+ "cache_key": "9aca19d5d3c091e8d70637bb58d1ffd4eb58da0a532cc1ca7481169be81a5104",
+ "experiment_id": "systemD_compress70_expert_test",
+ "timestamp": "2026-08-20T04:27:06.433308+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "compress70_v1",
+ "config_tag": "compress70_v1",
+ "system_prompt": "You rewrite financial-QA answers to be more concise without losing substance.\n\nRewrite the answer below to roughly 65-75 words (NEVER more than 85). Rules:\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Keep EVERY distinct fact and every key figure exactly as written: numbers, units, currencies, percentages, periods. Do not drop facts — shorten the wording around them.\n- Keep at least one verbatim evidence quote; shorten prose, not quotes. NEVER alter, translate, or paraphrase inside quotation marks.\n- Reuse the question's key terms in the answer wording.\n- Remove only filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: How is the company allocating capital (e.g., investments, share repurchases, dividends) based on its performance and market outlook from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: Johnson & Johnson is allocating capital through dividends, share repurchases, and investments in R&D and strategic acquisitions, reflecting its strong performance and market outlook. The company paid dividends of $10,481 million in 2020 and repurchased $3,221 million in common stock. It also increased R&D spending to $12,159 million in 2020, up 7.1% from the previous year.  \n\nFinancial Statements Evidence:  \n- Dividends to shareholders: $10,481 (2020), $9,917 (2019)  \n- Repurchase of common stock: $3,221 (2020), $6,746 (2019)  \n- Research and development expense: $12,159 (2020), $11,355 (2019)",
+ "user_prompt_sha256": "5575854249161fad51ec22ae1c0a8b0d770903c0cc570c9798ea8b6a36059b00",
+ "user_prompt_chars": 900,
+ "task_id": "JNJ_20210222",
+ "submission_id": null,
+ "question": "How is the company allocating capital (e.g., investments, share repurchases, dividends) based on its performance and market outlook from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: Johnson & Johnson is allocating capital via dividends, share repurchases, and R&D investments, reflecting its performance and market outlook. It paid $10,481 million in dividends in 2020 and repurchased $3,221 million in stock. R&D spending rose to $12,159 million in 2020, a 7.1% increase from 2019.  \n\nFinancial Statements Evidence:  \n- Dividends to shareholders: $10,481 (2020), $9,917 (2019)  \n- Repurchase of common stock: $3,221 (2020), $6,746 (2019)  \n- Research and development expense: $12,159 (2020), $11,355 (2019)",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 439,
+  "output_tokens": 196
+ },
+ "from_cache": false
+}

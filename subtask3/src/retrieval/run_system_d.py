@@ -10,8 +10,8 @@ be reused or overwritten). The prompt row already contains the full
 original context + highlighted evidence + Question; the system message is
 empty.
 
-Safety: intended for the SELF-HOSTED vLLM endpoint (LOCAL_VLLM_BASE, no
-API key). --dry-run prints what would run without any network call.
+Safety: intended for the self-hosted local GGUF endpoint (LOCAL_OLLAMA_BASE,
+no API key). --dry-run prints what would run without any network call.
 Answers are validated with the System C answer_validator (read-only) against
 the row's ORIGINAL query context, so evidence-block text cannot satisfy
 quote-grounding by itself (it is a verbatim subset of the context anyway).

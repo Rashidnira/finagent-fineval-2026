@@ -1,0 +1,34 @@
+{
+ "cache_key": "88b6ea398cd8e11d2451bf400fd90ee8c233be5e3fea49ed2f40aee2e9a2c324",
+ "experiment_id": "systemD_compress_easy_train",
+ "timestamp": "2026-08-20T02:41:45.772231+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "compress_v1",
+ "config_tag": "compress_v1",
+ "system_prompt": "You rewrite financial-QA answers to be shorter without losing substance.\n\nRewrite the answer below to AT MOST 55 words total. Rules:\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Keep every key figure exactly as written: numbers, units, currencies, percentages, periods.\n- Keep quoted evidence verbatim; you may drop a less-relevant quote entirely to save words, but NEVER alter, translate, or paraphrase inside quotation marks.\n- Reuse the question's key terms in the answer wording.\n- Remove filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: What trends can be observed in the company’s revenue amount over the past few years? Please quote the piece(s) of news aligned with the finding(s), if any.\n\nOriginal answer:\nAnswer: Honeywell's revenue has shown a declining trend over the past few years, with a 11% decrease in 2020 compared to 2019, and further declines in previous years. Specifically, revenue dropped from $41,802 million in 2018 to $36,709 million in 2019, and further to $32,637 million in 2020.  \nNews Evidence: \"La facturación de Honeywell entre enero y diciembre de 2020 se situó en 32.637 millones de dólares... lo que equivale a una caída del 11% frente a 2019.\"",
+ "user_prompt_sha256": "8d729def96d25f35b93fc9802743c8f686bd85e55cd17b6fce624b699ad1ac95",
+ "user_prompt_chars": 649,
+ "task_id": "HON_20210212",
+ "submission_id": null,
+ "question": "What trends can be observed in the company’s revenue amount over the past few years? Please quote the piece(s) of news aligned with the finding(s), if any.",
+ "raw_response": "Answer: Honeywell's revenue has declined over the past few years, dropping from $41,802 million in 2018 to $32,637 million in 2020, with an 11% decrease in 2020 compared to 2019.  \nNews Evidence: \"La facturación de Honeywell entre enero y diciembre de 2020 se situó en 32.637 millones de dólares... lo que equivale a una caída del 11% frente a 2019.\"",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 361,
+  "output_tokens": 128
+ },
+ "from_cache": false
+}

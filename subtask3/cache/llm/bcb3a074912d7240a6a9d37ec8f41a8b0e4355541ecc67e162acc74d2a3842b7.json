@@ -1,0 +1,34 @@
+{
+ "cache_key": "bcb3a074912d7240a6a9d37ec8f41a8b0e4355541ecc67e162acc74d2a3842b7",
+ "experiment_id": "systemD_compress_strict",
+ "timestamp": "2026-08-20T19:00:57.579132+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "compress_v2_strict",
+ "config_tag": "compress_v2_strict",
+ "system_prompt": "Rewrite the answer below to AT MOST 45 words total. Keep the exact labeled structure (Answer: / ... Evidence: lines), keep every figure exactly as written, keep at most ONE short verbatim quote (drop the rest; never alter or translate inside quotation marks). Output ONLY the rewritten answer.",
+ "user_prompt": "Question: What is the company’s strategy on navigating maintaining profit margins from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: Johnson & Johnson is prioritizing innovation and expanding medical device technologies, especially in surgery and interventional solutions, to sustain profit margins. Acquisitions and R&D, such as the Breakthrough Device Designation for transbronchial microwave ablation, aim to offset revenue declines.  \n\nFinancial Statements Evidence:  \n- Net earnings for the six months ended June 28, 2020, were $9.4B, up 0.7% from $9.4B in the same period in 2019.  \n- Gross profit dropped to $11.8B (64.1% of sales) from $13.6B (66.2% of sales) in the prior year.  \n- R&D spending was $2.7B (14.8% of sales) in Q2 2020, compared to $2.7B (13.0% of sales) in 2019.",
+ "user_prompt_sha256": "2cb7408bffb481c2a67d9b34cfc685235309c0a1d5842e2bfce8ebeee1eae489",
+ "user_prompt_chars": 893,
+ "task_id": "JNJ_20200724",
+ "submission_id": null,
+ "question": "What is the company’s strategy on navigating maintaining profit margins from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: Johnson & Johnson is prioritizing innovation and expanding medical device technologies to maintain profit margins. R&D and acquisitions, such as the Breakthrough Device Designation, aim to counter revenue declines.  \n\nFinancial Statements Evidence:  \n- Net earnings for the six months ended June 28, 2020, were \"$9.4B, up 0.7% from $9.4B in the same period in 2019.\"  \n- Gross profit dropped to $11.8B (64.1% of sales) from $13.6B (66.2% of sales) in the prior year.  \n- R&D spending was $2.7B (14.8% of sales) in Q2 2020, compared to $2.7B (13.0% of sales) in 2019.",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 323,
+  "output_tokens": 189
+ },
+ "from_cache": false
+}

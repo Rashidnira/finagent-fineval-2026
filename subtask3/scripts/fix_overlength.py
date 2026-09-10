@@ -1,5 +1,7 @@
-"""Deterministic length guard: re-shorten any answer still above 100 words
-with the SAME pinned model. Usage:
+"""Model-based length guard with a deterministic trigger.
+
+Re-shorten any answer still above 100 words with the same pinned model.
+Usage:
 
     python scripts/fix_overlength.py <predictions.jsonl> [--provider local_qwen3_32b]
 

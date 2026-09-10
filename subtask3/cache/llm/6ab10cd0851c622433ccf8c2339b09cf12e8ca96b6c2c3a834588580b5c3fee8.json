@@ -1,0 +1,34 @@
+{
+ "cache_key": "6ab10cd0851c622433ccf8c2339b09cf12e8ca96b6c2c3a834588580b5c3fee8",
+ "experiment_id": "systemD_compress70_expert_test",
+ "timestamp": "2026-08-20T04:23:42.549401+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "compress70_v1",
+ "config_tag": "compress70_v1",
+ "system_prompt": "You rewrite financial-QA answers to be more concise without losing substance.\n\nRewrite the answer below to roughly 65-75 words (NEVER more than 85). Rules:\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Keep EVERY distinct fact and every key figure exactly as written: numbers, units, currencies, percentages, periods. Do not drop facts — shorten the wording around them.\n- Keep at least one verbatim evidence quote; shorten prose, not quotes. NEVER alter, translate, or paraphrase inside quotation marks.\n- Reuse the question's key terms in the answer wording.\n- Remove only filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: What are the company's capital expenditures and their strategic significance from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: Honeywell's capital expenditures in 2020 were $906 million, reflecting strategic investments in property, plant, and equipment to support growth in automation, aerospace, and energy transition. These investments align with the company's focus on innovation and market expansion.  \nFinancial Statements Evidence: Expenditures for property, plant and equipment | (906) | (839) | (828).",
+ "user_prompt_sha256": "180e819852cff84f0f377505e84d2e85fcc46ca3fc558f076878d47e58cd756a",
+ "user_prompt_chars": 628,
+ "task_id": "HON_20210212",
+ "submission_id": null,
+ "question": "What are the company's capital expenditures and their strategic significance from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: Honeywell's 2020 capital expenditures were $906 million, directed toward property, plant, and equipment to support growth in automation, aerospace, and energy transition, aligning with its innovation and expansion strategy.  \nFinancial Statements Evidence: Expenditures for property, plant and equipment | (906) | (839) | (828).",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 312,
+  "output_tokens": 81
+ },
+ "from_cache": false
+}

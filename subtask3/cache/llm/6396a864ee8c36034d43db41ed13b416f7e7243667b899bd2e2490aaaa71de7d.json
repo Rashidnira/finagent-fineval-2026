@@ -1,0 +1,34 @@
+{
+ "cache_key": "6396a864ee8c36034d43db41ed13b416f7e7243667b899bd2e2490aaaa71de7d",
+ "experiment_id": "systemD_rewrite_en_local_qwen3_32b",
+ "timestamp": "2026-08-20T18:57:32.586733+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "rewrite_en60_v1",
+ "config_tag": "rewrite_en60_v1",
+ "system_prompt": "You rewrite financial-QA answers to a strict house style.\n\nRewrite the answer below. Rules:\n- Target 55-65 words total, NEVER more than 75.\n- ENGLISH ONLY. If the answer contains any Chinese, Japanese, Greek, or Spanish text (including quotes), replace it with a faithful English rendering of the same information. No non-Latin characters may remain.\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Write monetary amounts compactly: $27.2B, $416M, $3.5M — but ONLY when the magnitude is clear from the original wording (e.g. \"US$14,014 million\" -> \"$14.0B\"). If the scale of a raw number is not explicit, keep it unchanged. Never alter what a number means. Keep percentages as printed (e.g. 18.6%).\n- Keep every distinct fact. Reuse the question's key terms in the wording.\n- Remove filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: What is the company’s strategy on navigating maintaining profit margins from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: The company focuses on leveraging cloud services and digital transformation to maintain and expand profit margins. The Azure platform saw a 50% YoY revenue growth, and Dynamics 365 grew by 45%. These services are central to the company's strategy.  \nFinancial Statements Evidence: Operating income was $17,048 million (Three Months Ended March 31, 2021) and $50,821 million (Nine Months Ended March 31, 2021). Azure revenue grew by 50% YoY, and Dynamics 365 revenue increased by 45% YoY.",
+ "user_prompt_sha256": "35fd48539ba7febcf1c3e0376fa4efa6513ab91e31a88cd5b36d4cb5adc07396",
+ "user_prompt_chars": 727,
+ "task_id": "MSFT_20210427",
+ "submission_id": null,
+ "question": "What is the company’s strategy on navigating maintaining profit margins from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: The company aims to maintain profit margins through cloud services and digital transformation. Azure revenue grew 50% YoY, and Dynamics 365 revenue rose 45% YoY, supporting this strategy.  \nFinancial Statements Evidence: Operating income was $17.0B (Three Months Ended March 31, 2021) and $50.8B (Nine Months Ended March 31, 2021). Azure revenue grew 50% YoY, and Dynamics 365 revenue increased 45% YoY.",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 441,
+  "output_tokens": 122
+ },
+ "from_cache": false
+}

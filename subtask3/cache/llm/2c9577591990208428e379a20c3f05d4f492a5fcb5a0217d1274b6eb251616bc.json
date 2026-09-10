@@ -1,0 +1,34 @@
+{
+ "cache_key": "2c9577591990208428e379a20c3f05d4f492a5fcb5a0217d1274b6eb251616bc",
+ "experiment_id": "systemD_rewrite_en_local_qwen3_32b",
+ "timestamp": "2026-08-20T18:58:20.239640+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "rewrite_en60_v1",
+ "config_tag": "rewrite_en60_v1",
+ "system_prompt": "You rewrite financial-QA answers to a strict house style.\n\nRewrite the answer below. Rules:\n- Target 55-65 words total, NEVER more than 75.\n- ENGLISH ONLY. If the answer contains any Chinese, Japanese, Greek, or Spanish text (including quotes), replace it with a faithful English rendering of the same information. No non-Latin characters may remain.\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Write monetary amounts compactly: $27.2B, $416M, $3.5M — but ONLY when the magnitude is clear from the original wording (e.g. \"US$14,014 million\" -> \"$14.0B\"). If the scale of a raw number is not explicit, keep it unchanged. Never alter what a number means. Keep percentages as printed (e.g. 18.6%).\n- Keep every distinct fact. Reuse the question's key terms in the wording.\n- Remove filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: What is the company’s strategy on navigating maintaining profit margins from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: Honeywell is focusing on cost management, productivity improvements, and investing in high-return areas to maintain profit margins. The company reduced fixed costs by $1.5 billion in 2020 and achieved a 170% adjusted free cash flow conversion rate, with $5.3 billion in free cash flow. The aerospace segment improved its operating margin by 150 basis points due to productivity measures, while the safety and productivity solutions segment increased its margin by 260 basis points.  \n\nFinancial Statements Evidence:  \n- \"Repurchases of common stock | (3,714) | (4,400) | (4,000)\" (Cash Flow Statement)  \n- \"Net income attributable to Honeywell | 4,779 | 6,143 | 6,765\" (Cash Flow Statement)  \n- \"Free cash flow of $5.3 billion, adjusted free cash flow conversion rate of 105%\" (Chinese News)",
+ "user_prompt_sha256": "80e0acc596d7cffae535169ddc41c46de31189671cc58ebfa4c9c8cff03242e7",
+ "user_prompt_chars": 1031,
+ "task_id": "HON_20210212",
+ "submission_id": null,
+ "question": "What is the company’s strategy on navigating maintaining profit margins from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: Honeywell is prioritizing cost management, productivity, and high-return investments to sustain profit margins. It cut fixed costs by $1.5B in 2020, generated $5.3B in free cash flow, and achieved a 105% adjusted free cash flow conversion rate. The aerospace segment improved operating margins by 150 bps, and the safety and productivity solutions segment by 260 bps.\n\nFinancial Statements Evidence:  \n- \"Repurchases of common stock | (3,714) | (4,400) | (4,000)\" (Cash Flow Statement)  \n- \"Net income attributable to Honeywell | 4,779 | 6,143 | 6,765\" (Cash Flow Statement)  \n- \"Free cash flow of $5.3 billion, adjusted free cash flow conversion rate of 105%\"",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 515,
+  "output_tokens": 196
+ },
+ "from_cache": false
+}

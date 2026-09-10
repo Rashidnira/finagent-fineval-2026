@@ -1,0 +1,34 @@
+{
+ "cache_key": "a2d49e203d354e586f8540f7d3e6bd1c77739dbc357890c9e4de71e5ee4b99a9",
+ "experiment_id": "systemD_rewrite_en_local_qwen3_32b",
+ "timestamp": "2026-08-20T18:56:37.696608+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "rewrite_en60_v1",
+ "config_tag": "rewrite_en60_v1",
+ "system_prompt": "You rewrite financial-QA answers to a strict house style.\n\nRewrite the answer below. Rules:\n- Target 55-65 words total, NEVER more than 75.\n- ENGLISH ONLY. If the answer contains any Chinese, Japanese, Greek, or Spanish text (including quotes), replace it with a faithful English rendering of the same information. No non-Latin characters may remain.\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Write monetary amounts compactly: $27.2B, $416M, $3.5M — but ONLY when the magnitude is clear from the original wording (e.g. \"US$14,014 million\" -> \"$14.0B\"). If the scale of a raw number is not explicit, keep it unchanged. Never alter what a number means. Keep percentages as printed (e.g. 18.6%).\n- Keep every distinct fact. Reuse the question's key terms in the wording.\n- Remove filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: Please list the top three focuses on revenue from news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: The top three focuses on revenue, as highlighted in the news, are: 1) Cloud services (Intelligent Cloud), 2) Productivity and Business Processes (Office, LinkedIn), and 3) Personal Computing (Windows, Surface, Xbox).  \nFinancial Statements Evidence: The Intelligent Cloud segment revenue was $12,300 million, reflecting a 27% YoY growth, with Azure contributing a 59% revenue increase. Productivity and Business Processes revenue was $11,700 million, a 15% YoY increase, driven by Office and LinkedIn. Personal Computing revenue was $11,000 million, showing a 3% YoY increase, primarily due to Windows.",
+ "user_prompt_sha256": "ed497fd8b5ac1cedb9b8574005b1725183dc0e336f8aec92ebdcc0e95a1f37ec",
+ "user_prompt_chars": 811,
+ "task_id": "MSFT_20200429",
+ "submission_id": null,
+ "question": "Please list the top three focuses on revenue from news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: The top three revenue focuses in the news are: 1) Cloud services (Intelligent Cloud), 2) Productivity and Business Processes (Office, LinkedIn), and 3) Personal Computing (Windows, Surface, Xbox).  \nFinancial Statements Evidence: Intelligent Cloud revenue was $12.3B, up 27% YoY, with Azure up 59%. Productivity and Business Processes revenue was $11.7B, up 15% YoY. Personal Computing revenue was $11.0B, up 3% YoY.",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 452,
+  "output_tokens": 120
+ },
+ "from_cache": false
+}

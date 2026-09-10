@@ -1,0 +1,34 @@
+{
+ "cache_key": "8c106a20b5ddb8c6b66bb36f6ac4e1986d945510a7b9870706db5212fe4be670",
+ "experiment_id": "systemD_compress_expert_test",
+ "timestamp": "2026-08-20T02:45:20.263105+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "compress_v1",
+ "config_tag": "compress_v1",
+ "system_prompt": "You rewrite financial-QA answers to be shorter without losing substance.\n\nRewrite the answer below to AT MOST 55 words total. Rules:\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Keep every key figure exactly as written: numbers, units, currencies, percentages, periods.\n- Keep quoted evidence verbatim; you may drop a less-relevant quote entirely to save words, but NEVER alter, translate, or paraphrase inside quotation marks.\n- Reuse the question's key terms in the answer wording.\n- Remove filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: How is the company allocating capital (e.g., investments, share repurchases, dividends) based on its performance and market outlook from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: Universal Corporation allocated capital through share repurchases, dividend payments, and long-term debt issuance. For the nine months ended December 31, 2020, the company repurchased $0 of common stock (compared to $20,125 in 2019) and paid $56,301 in dividends on common stock. It also issued $150,000 in long-term debt. The company also used $191,603 in cash for investing activities, primarily due to purchases of property, plant and equipment and businesses.  \n\nFinancial Statements Evidence:  \n- Repurchase of common stock: $—  \n- Dividends paid on common stock: $56,301  \n- Net cash used by investing activities: $191,603  \n- Purchase of property, plant and equipment: $33,794  \n- Purchase of business, net of cash held by the business: $161,095",
+ "user_prompt_sha256": "9f91d4bf9d6065d9c53a09faaa710b75f475790a5ff59f6791d4dc598fc16677",
+ "user_prompt_chars": 1052,
+ "task_id": "UVV_20210208",
+ "submission_id": null,
+ "question": "How is the company allocating capital (e.g., investments, share repurchases, dividends) based on its performance and market outlook from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: Universal Corporation allocated capital via dividends, debt issuance, and investments. For nine months ended December 31, 2020, it paid $56,301 in dividends, issued $150,000 in long-term debt, and used $191,603 in investing activities.  \n\nFinancial Statements Evidence:  \n- Dividends paid on common stock: $56,301  \n- Net cash used by investing activities: $191,603",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 430,
+  "output_tokens": 110
+ },
+ "from_cache": false
+}

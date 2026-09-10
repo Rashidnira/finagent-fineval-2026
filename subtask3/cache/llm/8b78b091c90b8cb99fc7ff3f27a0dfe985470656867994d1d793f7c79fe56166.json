@@ -1,0 +1,34 @@
+{
+ "cache_key": "8b78b091c90b8cb99fc7ff3f27a0dfe985470656867994d1d793f7c79fe56166",
+ "experiment_id": "systemD_compress_expert_test",
+ "timestamp": "2026-08-20T02:44:09.455673+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "compress_v1",
+ "config_tag": "compress_v1",
+ "system_prompt": "You rewrite financial-QA answers to be shorter without losing substance.\n\nRewrite the answer below to AT MOST 55 words total. Rules:\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Keep every key figure exactly as written: numbers, units, currencies, percentages, periods.\n- Keep quoted evidence verbatim; you may drop a less-relevant quote entirely to save words, but NEVER alter, translate, or paraphrase inside quotation marks.\n- Reuse the question's key terms in the answer wording.\n- Remove filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: How is the company allocating capital (e.g., investments, share repurchases, dividends) based on its performance and market outlook from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: Johnson & Johnson allocated capital through dividends and share repurchases despite a challenging market outlook. For the six months ended June 28, 2020, it paid $5,164 million in dividends and repurchased $2,417 million in common stock, reflecting continued shareholder returns despite a decline in cash reserves.  \n\nFinancial Statements Evidence:  \nFrom the Cash Flow Statement (Six Months Ended):  \n- Dividends to shareholders: $5,164  \n- Repurchase of common stock: $2,417",
+ "user_prompt_sha256": "8a0a386b8faebe90df15d3706fdc993cd94f18159b70198e488ae17812604c7c",
+ "user_prompt_chars": 776,
+ "task_id": "JNJ_20200724",
+ "submission_id": null,
+ "question": "How is the company allocating capital (e.g., investments, share repurchases, dividends) based on its performance and market outlook from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: Johnson & Johnson allocated capital via dividends and share repurchases. For the six months ended June 28, 2020, it paid $5,164 million in dividends and repurchased $2,417 million in common stock.  \n\nFinancial Statements Evidence:  \nFrom the Cash Flow Statement (Six Months Ended):  \n- Dividends to shareholders: $5,164  \n- Repurchase of common stock: $2,417",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 332,
+  "output_tokens": 100
+ },
+ "from_cache": false
+}

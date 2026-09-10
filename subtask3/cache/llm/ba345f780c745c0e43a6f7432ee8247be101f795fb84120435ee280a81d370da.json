@@ -1,0 +1,34 @@
+{
+ "cache_key": "ba345f780c745c0e43a6f7432ee8247be101f795fb84120435ee280a81d370da",
+ "experiment_id": "systemD_compress70_expert_test",
+ "timestamp": "2026-08-20T04:23:52.689579+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "compress70_v1",
+ "config_tag": "compress70_v1",
+ "system_prompt": "You rewrite financial-QA answers to be more concise without losing substance.\n\nRewrite the answer below to roughly 65-75 words (NEVER more than 85). Rules:\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Keep EVERY distinct fact and every key figure exactly as written: numbers, units, currencies, percentages, periods. Do not drop facts — shorten the wording around them.\n- Keep at least one verbatim evidence quote; shorten prose, not quotes. NEVER alter, translate, or paraphrase inside quotation marks.\n- Reuse the question's key terms in the answer wording.\n- Remove only filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: Please list the top three focuses on revenue from news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: The top three focuses on revenue from the news are: 1) Growth in the Safety and Productivity Solutions segment, driven by double-digit growth in Warehouse and Workflow Solutions and personal protective equipment; 2) Demand for building products and services, contributing to the Honeywell Building Technologies segment; and 3) Advanced materials and connected software, which supported overall sales despite challenges in the Aerospace segment.  \nFinancial Statements Evidence: Net sales for the first quarter were $8,454 million in 2021 compared to $8,463 million in 2020. Safety and Productivity Solutions saw a 47% increase in sales, while Aerospace sales decreased by 22%. Building Technologies sales increased by 2%.",
+ "user_prompt_sha256": "a3e08ba129c0270c35bd21f8b67cf5c5b16c1c83b1ad26ebfc6554ad6de29f8f",
+ "user_prompt_chars": 930,
+ "task_id": "HON_20210423",
+ "submission_id": null,
+ "question": "Please list the top three focuses on revenue from news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: The top three focuses on revenue from news are: 1) Double-digit growth in Safety and Productivity Solutions, including Warehouse and Workflow Solutions and PPE; 2) Increased demand in Honeywell Building Technologies; and 3) Advanced materials and connected software offsetting Aerospace challenges.  \nFinancial Statements Evidence: Net sales were $8,454 million in 2021 vs. $8,463 million in 2020. Safety and Productivity Solutions rose 47%, Aerospace fell 22%, and Building Technologies rose 2%.",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 374,
+  "output_tokens": 120
+ },
+ "from_cache": false
+}

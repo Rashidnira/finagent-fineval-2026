@@ -1,0 +1,45 @@
+[expert_C_gemma4_31b_grouped_v1] HON_20200501 grouped 
+[expert_C_gemma4_31b_grouped_v1] HON_20200724 grouped 
+[expert_C_gemma4_31b_grouped_v1] HON_20201030 oversize for 16k/min bucket (est 17916 tok) — routing to per-question calls
+[expert_C_gemma4_31b_grouped_v1] HON_20201030 single_oversize 
+[expert_C_gemma4_31b_grouped_v1] HON_20210212 grouped 
+[expert_C_gemma4_31b_grouped_v1] HON_20210423 oversize for 16k/min bucket (est 17284 tok) — routing to per-question calls
+[expert_C_gemma4_31b_grouped_v1] HON_20210423 single_oversize 
+[expert_C_gemma4_31b_grouped_v1] JNJ_20200429 oversize for 16k/min bucket (est 18927 tok) — routing to per-question calls
+    [rate-limit] 429; sleeping 75s (attempt 1/8)
+[expert_C_gemma4_31b_grouped_v1] JNJ_20200429 single_oversize 
+[expert_C_gemma4_31b_grouped_v1] JNJ_20200724 parse failure (v1): unparsed answers for ids ['poly_048']
+[expert_C_gemma4_31b_grouped_v1] JNJ_20200724 grouped 
+[expert_C_gemma4_31b_grouped_v1] JNJ_20201023 grouped 
+[expert_C_gemma4_31b_grouped_v1] JNJ_20210222 grouped 
+[expert_C_gemma4_31b_grouped_v1] JNJ_20210430 grouped 
+[expert_C_gemma4_31b_grouped_v1] MSFT_20200429 parse failure (v1): unparsed answers for ids ['poly_004']
+[expert_C_gemma4_31b_grouped_v1] MSFT_20200429 grouped 
+[expert_C_gemma4_31b_grouped_v1] MSFT_20200730 grouped 
+[expert_C_gemma4_31b_grouped_v1] MSFT_20201027 grouped 
+[expert_C_gemma4_31b_grouped_v1] MSFT_20210126 grouped 
+[expert_C_gemma4_31b_grouped_v1] MSFT_20210427 grouped 
+[expert_C_gemma4_31b_grouped_v1] UVV_20200528 grouped 
+[expert_C_gemma4_31b_grouped_v1] UVV_20200805 grouped 
+[expert_C_gemma4_31b_grouped_v1] UVV_20201105 grouped 
+[expert_C_gemma4_31b_grouped_v1] UVV_20210208 grouped 
+
+=== AGGREGATE ===
+{
+ "experiment_id": "expert_C_gemma4_31b_grouped_v1",
+ "n": 76,
+ "date": "2026-08-19",
+ "model": "gemma-4-31b-it",
+ "system_type": "C",
+ "dataset": "expert",
+ "generation_mode": "grouped+routed",
+ "new_api_calls": 28,
+ "format_pass_rate": 1.0,
+ "numeric_grounded_rate": 1.0,
+ "quote_verbatim_rate": 0.9736842105263158
+}
+
+=== PER-TASK FAILURE LIST ===
+      task_id  n_flagged             flags
+MSFT_20210126          1 unverbatim_quotes
+ UVV_20201105          1 unverbatim_quotes

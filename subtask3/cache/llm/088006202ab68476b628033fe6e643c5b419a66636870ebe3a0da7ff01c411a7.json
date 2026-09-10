@@ -1,0 +1,34 @@
+{
+ "cache_key": "088006202ab68476b628033fe6e643c5b419a66636870ebe3a0da7ff01c411a7",
+ "experiment_id": "fix_nonlatin",
+ "timestamp": "2026-08-20T19:01:58.910176+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "fix_nonlatin_v1",
+ "config_tag": "fix_nonlatin_v1",
+ "system_prompt": "The answer below contains non-English text (Chinese, Japanese, Greek, or Spanish). Rewrite it in ENGLISH ONLY, at most 70 words: translate the non-English parts faithfully into English prose (no quotation marks around translations), keep the labeled structure (Answer: / ... Evidence: lines), keep all figures exactly. Not a single non-Latin character may remain. Output ONLY the rewritten answer.",
+ "user_prompt": "Original answer:\nAnswer: Honeywell’s strategy for maintaining profit margins includes cost management, streamlined cost base, and commercial excellence. Segment margin growth in Aerospace, Honeywell Building Technologies, and Safety and Productivity Solutions supports this.  \n\nFinancial Statements Evidence:  \n- Segment margin expanded 110 basis points to 29.0% in Aerospace.  \n- Segment margin expanded 200 basis points to 22.5% in Honeywell Building Technologies.  \n- Segment margin expanded 180 basis points to 14.3% in Safety and Productivity Solutions.  \n- Operating margin for the quarter was 17.8%, with segment margin at 21.0%.",
+ "user_prompt_sha256": "bbf53c41ec5f6d1175cbabe4362a8259a9fe597567fe7d0f6bed8aec9c1272ff",
+ "user_prompt_chars": 636,
+ "task_id": "HON_20210423",
+ "submission_id": null,
+ "question": "What is the company’s strategy on navigating maintaining profit margins from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: Honeywell's strategy for maintaining profit margins includes cost management, streamlined cost base, and commercial excellence. Segment margin growth in Aerospace, Honeywell Building Technologies, and Safety and Productivity Solutions supports this.  \n\nFinancial Statements Evidence:  \n- Segment margin expanded 110 basis points to 29.0% in Aerospace.  \n- Segment margin expanded 200 basis points to 22.5% in Honeywell Building Technologies.  \n- Segment margin expanded 180 basis points to 14.3% in Safety and Productivity Solutions.  \n- Operating margin for the quarter was 17.8%, with segment margin at 21.0%.",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 243,
+  "output_tokens": 142
+ },
+ "from_cache": false
+}

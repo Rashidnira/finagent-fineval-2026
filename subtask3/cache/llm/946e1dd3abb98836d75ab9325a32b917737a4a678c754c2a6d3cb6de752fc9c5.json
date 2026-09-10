@@ -1,0 +1,34 @@
+{
+ "cache_key": "946e1dd3abb98836d75ab9325a32b917737a4a678c754c2a6d3cb6de752fc9c5",
+ "experiment_id": "systemD_rewrite_en_local_qwen3_32b",
+ "timestamp": "2026-08-20T19:00:23.627676+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "rewrite_en60_v1",
+ "config_tag": "rewrite_en60_v1",
+ "system_prompt": "You rewrite financial-QA answers to a strict house style.\n\nRewrite the answer below. Rules:\n- Target 55-65 words total, NEVER more than 75.\n- ENGLISH ONLY. If the answer contains any Chinese, Japanese, Greek, or Spanish text (including quotes), replace it with a faithful English rendering of the same information. No non-Latin characters may remain.\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Write monetary amounts compactly: $27.2B, $416M, $3.5M — but ONLY when the magnitude is clear from the original wording (e.g. \"US$14,014 million\" -> \"$14.0B\"). If the scale of a raw number is not explicit, keep it unchanged. Never alter what a number means. Keep percentages as printed (e.g. 18.6%).\n- Keep every distinct fact. Reuse the question's key terms in the wording.\n- Remove filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: What is the company’s strategy on navigating maintaining profit margins from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: Universal Corporation is focused on maintaining profit margins by expanding into new markets beyond its traditional tobacco business, such as plant-based ingredients, through strategic acquisitions and targeted mergers. For example, it acquired Silva International, Inc. in October 2020 for $164 million to strengthen its platform in dried plant-based ingredients. This diversification is part of its broader strategy to explore non-tobacco markets and enhance long-term value for shareholders. However, it also discontinued operations in areas like the potato processing segment due to strategic incompatibility and competitive pressures. \n\nFinancial Statements Evidence: None",
+ "user_prompt_sha256": "450728de3e0791a2ecbc557c4d40c2381553231bd99516f6aeacf28be5194d84",
+ "user_prompt_chars": 917,
+ "task_id": "UVV_20210208",
+ "submission_id": null,
+ "question": "What is the company’s strategy on navigating maintaining profit margins from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: Universal Corporation is maintaining profit margins by expanding into non-tobacco markets like plant-based ingredients via acquisitions and mergers. In October 2020, it acquired Silva International, Inc. for $164M to strengthen its dried plant-based ingredients platform. The company also discontinued operations in the potato processing segment due to strategic incompatibility and competition. This reflects a strategy to diversify and enhance shareholder value.\n\nFinancial Statements Evidence: None",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 425,
+  "output_tokens": 93
+ },
+ "from_cache": false
+}

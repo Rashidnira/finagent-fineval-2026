@@ -1,0 +1,122 @@
+# FinNLP 2026 Subtask 3 (PolyFiQA) — pipeline configuration
+#
+# STATUS: development record. No code in this repository reads this file;
+# it documents the choices explored while building the system.
+#
+# THE SUBMITTED SYSTEM used none of the hosted-API providers described in the
+# `llm:` block below. It generated every answer with Qwen3-32B (32.8B,
+# Apache-2.0) served locally through Ollama, with BGE-M3 (568M) for retrieval.
+# No third-party inference API was called at any stage. See BEST_SYSTEM.md for
+# the submitted configuration and reports/MODEL_ELIGIBILITY.md for the
+# parameter-count basis of the eligibility claim.
+
+competition:
+  name: "FinNLP 2026 Subtask 3: Multilingual Financial Q&A (PolyFiQA)"
+  dataset_repo: "FinNLP-Multilingual-Understanding/finnlp2026-subtask3-polyfiqa"
+  dataset_commit: "8377c6e8e2d10279f1e857e37ceab3ee313104ac"
+  space_repo: "FinNLP-Multilingual-Understanding/finnlp2026subtask3polyfiqa"
+  space_commit: "34ece895493eafe5cc1a555161f163792c3eb378"
+  space_host: "https://finnlp-multilingual-understanding-finnlp2026subt-ce3979d.hf.space"
+  metric: "macro-averaged ROUGE-1 F1"
+  leaderboard_split:
+    public_groups: 6    # 24 rows
+    private_groups: 13  # 52 rows
+    grouping: "all four questions of one task_id stay together"
+  submission:
+    format: csv
+    encoding: utf-8
+    columns: [id, prediction]
+    rows: 76
+    quoting: "quote cells containing commas or line breaks"
+  deadline:
+    test_phase_end_site_rendered: "2026-08-23 23:59 AoE"
+    test_phase_end_site_base_template: "2026-08-20"
+    note: >-
+      Official site renders 23 Aug via a correction layer over a 20 Aug base
+      value; brief provided by user says 20 Aug. Target 20 Aug AoE for the
+      validated checkpoint; treat 23 Aug as unconfirmed slack.
+  submission_limit: UNRESOLVED  # not exposed publicly; visible after HF login
+
+data:
+  raw_train: data/raw/public-00000-of-00001.parquet
+  raw_test_participant: data/raw/PolyFiQA_test_participant.parquet
+  official_train: data/manifests/official_finnlp_train.parquet
+  official_test: data/manifests/official_finnlp_test.parquet   # submission master (has `id`)
+
+llm:
+  # SUPERSEDED — this block records an OpenRouter/Gemma route that was
+  # evaluated during development and NOT used for the submission. It is kept
+  # for provenance only. The submitted run used provider `local_qwen3_32b`
+  # (Qwen3-32B via Ollama); see BEST_SYSTEM.md.
+  provider: openrouter_gemma      # NOT the submitted provider (see note above)
+  model: "google/gemma-4-31b-it:free"  # PINNED exact free model — 30.7B dense
+  api_base: "https://openrouter.ai/api/v1"
+  api_key_env: OPENROUTER_API_KEY # key is never printed, logged, or cached
+  routing_policy:
+    allow_fallbacks: false        # sent on every request; no auto-routing
+    paid_fallback: PROHIBITED     # if the exact free model is unavailable or
+                                  # rate-limited beyond retry policy: STOP
+    retry_repair_model: "google/gemma-4-31b-it:free"  # same pinned model only
+  experiment_namespace: openrouter_gemma4_31b  # in exp ids + cache fingerprint;
+                                  # never reuses the direct-Google cache
+  generation:                     # official recommended Gemma sampling config
+    temperature: 1.0
+    top_p: 0.95
+    top_k: 64
+    max_output_tokens: 4096
+  generation_mode: grouped        # 1 call per task_id (4 questions); smoke-tested first
+  cache_dir: cache/llm
+  candidates:                     # additional pinned OpenRouter candidates;
+                                  # same routing policy as above (pinned exact
+                                  # model, allow_fallbacks false, paid
+                                  # fallback PROHIBITED, 429 => one attempt
+                                  # then STOP, key from OPENROUTER_API_KEY)
+    openrouter_gemma4_26b_a4b:
+      model: "google/gemma-4-26b-a4b-it:free"  # 25.2B total MoE — eligible;
+                                               # listed 2026-08-19, $0/$0,
+                                               # 262,144-token context
+      experiment_namespace: openrouter_gemma4_26b_a4b
+      generation: same official Gemma sampling as primary (temp 1.0/top_p 0.95/top_k 64)
+      prompts: identical to 31B candidate (not tuned per model)
+    openrouter_qwen3_32b:   # NOTE :free variant NOT LISTED on OpenRouter
+                            # as of 2026-08-19 (completion 404s; paid-only)
+      model: "qwen/qwen3-32b:free"   # 32.8B dense — eligible under 70B rule
+      experiment_namespace: openrouter_qwen3_32b
+      generation:                    # official Qwen3 non-thinking sampling
+        temperature: 0.7
+        top_p: 0.8
+        top_k: 20
+        max_output_tokens: 4096
+      reasoning: disabled            # via API param, not prompt changes
+      prompts: identical to Gemma candidate (not tuned per model)
+  # LEGACY_EXPLORATORY — NOT for competition inference (results preserved):
+  # provider google_gemma: gemma-4-31b-it via direct Gemini API free tier
+  # (GEMINI_API_KEY); experiments *_gemma4_31b_* and their cache entries kept.
+  # HISTORICAL — DISABLED_FOR_COMPETITION_INFERENCE:
+  # model: claude-sonnet-5 via anthropic SDK (undisclosed parameter count;
+  # ineligible under the 70B total-parameter rule). See src/providers.py.
+
+evaluation:
+  group_key: task_id            # GroupKFold; never split rows of one task_id
+  scorers:                      # Phase 2; provenance in reports/SCORER_PROVENANCE.md
+    - multifinben_default       # rouge_score defaults (MultiFinBen @ a3fc540)
+    - finmmeval_multiscript     # NFKC multiscript reconstruction (arXiv:2607.19867)
+  disagreement_rule: "report both scorers on every experiment; flag direction changes"
+
+generation_policy:              # approved 2026-08-18 user review
+  expert_prompt_source: "Expert instruction template embedded in test queries ONLY (Answer / Financial Statements Evidence labels); never train-style News Evidence labels"
+  quoting: "quote evidence in original language verbatim; never translate quotes (weakly dominant under both candidate scorers)"
+  length_prior_words: [40, 60]  # prior from gold mean ~48 (range 5-142); refine per question type after Phase 3
+
+phase5_rules:                   # user additions 2026-08-18
+  per_task_failure_list: >-
+    After B/C runs, report the per-task_id extraction-failure list alongside
+    aggregate scores; it is the targeting map for Phase 8 Expert validation
+    (evidence contexts are identical per task_id across tiers).
+  calibration: >-
+    Expected Easy ROUGE-1 F1 roughly 0.25-0.45 depending on scorer and length
+    match; absolute level is secondary. Decision signals: (a) B vs C ordering
+    consistent under both scorers, (b) factual/numeric accuracy rate.
+  stop_condition: >-
+    If the two scorers disagree on the B vs C ORDERING, STOP and report to the
+    user before committing to a system.

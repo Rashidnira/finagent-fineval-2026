@@ -1,0 +1,103 @@
+# Complete pinned environment: every package pip installed into a fresh
+# virtual environment from requirements.txt, including transitive dependencies.
+#
+#   python -m venv .venv
+#   .\.venv\Scripts\python.exe -m pip install -r requirements-lock.txt      # Windows
+#   ./.venv/bin/python -m pip install -r requirements-lock.txt              # macOS / Linux
+#
+# Verified on Windows 11, Python 3.12.10, 6 September 2026: all reproduction
+# scripts pass, all 83 tests pass, and the submission rebuilds to SHA-256
+# 9c6e3341d3f3158499926772b491cf12e63efcde696de13158c8e7793ec9a4dd.
+#
+# requirements.txt gives the loose ranges the code actually supports and is the
+# better choice for ordinary use; this file exists so the exact environment can
+# be recreated years from now. The suite has also been verified with
+# numpy 2.5.2, so these pins are a convenience rather than a constraint.
+#
+# 86 packages.
+absl-py==2.5.0
+annotated-doc==0.0.5
+annotated-types==0.8.0
+anthropic==1.4.0
+anyio==4.15.1
+certifi==2026.7.22
+cffi==2.1.1
+charset-normalizer==3.5.1
+click==8.5.0
+cloudpickle==3.1.2
+colorama==0.4.6
+contourpy==1.3.3
+cryptography==50.0.1
+cycler==0.12.1
+defusedxml==0.7.1
+distro==1.9.0
+docstring-parser==0.18.0
+filelock==3.32.5
+fonttools==4.64.0
+fsspec==2026.7.0
+google-auth==2.57.1
+google-genai==2.18.1
+h11==0.16.0
+hf-xet==1.6.0
+httpcore2==2.12.0
+httpcore==1.0.9
+httpx2==2.12.0
+httpx==0.28.1
+huggingface-hub==1.30.0
+idna==3.19
+iniconfig==2.3.0
+jinja2==3.1.6
+jiter==0.16.0
+joblib==1.6.0
+kiwisolver==1.5.1
+markdown-it-py==4.2.0
+MarkupSafe==3.0.3
+matplotlib==3.11.1
+mdurl==0.1.2
+mpmath==1.3.0
+narwhals==2.25.0
+networkx==3.6.1
+nltk==3.10.3
+numpy==2.5.3
+packaging==26.3
+pandas==3.0.5
+pillow==12.3.0
+pluggy==1.6.0
+pyarrow==25.0.1
+pyasn1-modules==0.4.2
+pyasn1==0.6.4
+pycparser==3.0
+pydantic-core==2.46.5
+pydantic==2.13.5
+pygments==2.21.0
+pyparsing==3.3.2
+pytest==9.1.1
+python-dateutil==2.9.0.post0
+pyyaml==6.0.3
+regex==2026.9.3
+requests==2.34.2
+rich==15.0.0
+rouge-score==0.1.2
+safetensors==0.8.0
+scikit-learn==1.9.0
+scipy==1.18.1
+sentence-transformers==6.0.1
+setuptools==84.0.0
+shellingham==1.5.4
+six==1.17.0
+sniffio==1.3.1
+sympy==1.14.0
+tabulate==0.10.0
+tenacity==9.1.4
+threadpoolctl==3.6.0
+tokenizers==0.23.2
+torch==2.14.0
+tqdm==4.70.0
+transformers==5.16.1
+truststore==0.10.4
+typer==0.27.2
+typing-extensions==4.16.0
+typing-inspection==0.4.4
+tzdata==2026.3
+urllib3==2.7.0
+websockets==16.1.1

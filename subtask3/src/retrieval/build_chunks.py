@@ -146,8 +146,9 @@ def main() -> None:
 
     (OUT_DIR / "chunking_summary.json").write_text(
         json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")
-    (ROOT / "reports/RAG_CHUNKING.md").write_text(
-        "\n".join(report), encoding="utf-8")
+    report_path = ROOT / "reports/RAG_CHUNKING.md"
+    report_path.parent.mkdir(parents=True, exist_ok=True)
+    report_path.write_text("\n".join(report), encoding="utf-8")
     print("\n".join(report))
     print(f"Wrote {OUT_DIR} and reports/RAG_CHUNKING.md")
 

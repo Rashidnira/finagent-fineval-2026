@@ -1,0 +1,18 @@
+{
+ "retriever": "bge_m3",
+ "k": 5,
+ "datasets": {
+  "easy_train": {
+   "rows": 76,
+   "file": "easy_train.system_d.jsonl",
+   "mean_prompt_chars": 70784,
+   "mean_block_chars": 8121
+  },
+  "expert_test": {
+   "rows": 76,
+   "file": "expert_test.system_d.jsonl",
+   "mean_prompt_chars": 70687,
+   "mean_block_chars": 7959
+  }
+ }
+}

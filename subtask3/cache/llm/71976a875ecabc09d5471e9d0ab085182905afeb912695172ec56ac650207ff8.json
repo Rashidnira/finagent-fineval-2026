@@ -1,0 +1,34 @@
+{
+ "cache_key": "71976a875ecabc09d5471e9d0ab085182905afeb912695172ec56ac650207ff8",
+ "experiment_id": "systemD_rewrite_en_local_qwen3_32b",
+ "timestamp": "2026-08-20T18:57:55.959690+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "rewrite_en60_v1",
+ "config_tag": "rewrite_en60_v1",
+ "system_prompt": "You rewrite financial-QA answers to a strict house style.\n\nRewrite the answer below. Rules:\n- Target 55-65 words total, NEVER more than 75.\n- ENGLISH ONLY. If the answer contains any Chinese, Japanese, Greek, or Spanish text (including quotes), replace it with a faithful English rendering of the same information. No non-Latin characters may remain.\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Write monetary amounts compactly: $27.2B, $416M, $3.5M — but ONLY when the magnitude is clear from the original wording (e.g. \"US$14,014 million\" -> \"$14.0B\"). If the scale of a raw number is not explicit, keep it unchanged. Never alter what a number means. Keep percentages as printed (e.g. 18.6%).\n- Keep every distinct fact. Reuse the question's key terms in the wording.\n- Remove filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: What is the company’s strategy on navigating maintaining profit margins from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: Honeywell's strategy to maintain profit margins includes aggressively managing costs, driving sales in resilient sectors like defense and automation, and investing in new technologies for safety and efficiency. The company reported $500 million in cost savings in Q2 and plans an additional $1.4–1.6 billion in 2020, which supports margin preservation. \n\nFinancial Statements Evidence:  \n- Net income attributable to Honeywell for six months ended June 30, 2020, was $2,662 million.  \n- Free cash flow was $1,253 million, with $746 million from decreased investments.  \n- Repositioning and other charges were $342 million, with net payments of $309 million.  \n- Honeywell reduced long-term debt by $1,218 million and repurchased $1,985 million in common stock.",
+ "user_prompt_sha256": "afc1533a0a61b7ae466042e2d04d5b88dd0ac35bca317af503a059c159cb41cf",
+ "user_prompt_chars": 1000,
+ "task_id": "HON_20200724",
+ "submission_id": null,
+ "question": "What is the company’s strategy on navigating maintaining profit margins from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: Honeywell’s strategy to maintain profit margins includes cost management, sales growth in resilient sectors like defense and automation, and technology investments. The company achieved $500M in Q2 cost savings and aims for an additional $1.4–1.6B in 2020.  \n\nFinancial Statements Evidence:  \n- Net income for six months ended June 30, 2020, was $2.7B.  \n- Free cash flow was $1.3B, with $746M from reduced investments.  \n- Restructuring charges were $342M, with net payments of $309M.  \n- Debt was reduced by $1.2B, and $2.0B in stock was repurchased.",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 494,
+  "output_tokens": 163
+ },
+ "from_cache": false
+}

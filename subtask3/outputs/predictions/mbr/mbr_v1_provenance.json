@@ -1,0 +1,914 @@
+[
+ {
+  "id": "poly_001",
+  "task_id": "MSFT_20200429",
+  "qtype": "RevenueFocus",
+  "chosen": "systemD_local_gemma4_31b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.3796,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.4141,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.3818,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.4144
+  }
+ },
+ {
+  "id": "poly_002",
+  "task_id": "MSFT_20200429",
+  "qtype": "CapitalAllocation",
+  "chosen": "expert_C_local_gemma4_31b_grouped_v1/predictions.csv",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.5678,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.4602,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.5738,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.5738
+  }
+ },
+ {
+  "id": "poly_003",
+  "task_id": "MSFT_20200429",
+  "qtype": "MarginStrategy",
+  "chosen": "systemD_local_gemma4_31b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.3369,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.3035,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.3473,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.4118
+  }
+ },
+ {
+  "id": "poly_004",
+  "task_id": "MSFT_20200429",
+  "qtype": "Capex",
+  "chosen": "systemD_local_qwen3_32b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.5077,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.5572,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.5527,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.5227
+  }
+ },
+ {
+  "id": "poly_005",
+  "task_id": "MSFT_20200730",
+  "qtype": "RevenueFocus",
+  "chosen": "expert_C_local_gemma4_31b_grouped_v1/predictions.csv",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.4266,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.4195,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.5856,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.5638
+  }
+ },
+ {
+  "id": "poly_006",
+  "task_id": "MSFT_20200730",
+  "qtype": "CapitalAllocation",
+  "chosen": "expert_C_local_qwen3_32b_grouped_v1/predictions.csv",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.544,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.5082,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.5086,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.51
+  }
+ },
+ {
+  "id": "poly_007",
+  "task_id": "MSFT_20200730",
+  "qtype": "MarginStrategy",
+  "chosen": "systemD_local_qwen3_32b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.42,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.4471,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.4254,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.4214
+  }
+ },
+ {
+  "id": "poly_008",
+  "task_id": "MSFT_20200730",
+  "qtype": "Capex",
+  "chosen": "systemD_local_qwen3_32b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.5193,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.5604,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.4995,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.4709
+  }
+ },
+ {
+  "id": "poly_009",
+  "task_id": "MSFT_20201027",
+  "qtype": "RevenueFocus",
+  "chosen": "expert_C_local_gemma4_31b_grouped_v1/predictions.csv",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.3685,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.4314,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.4637,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.4526
+  }
+ },
+ {
+  "id": "poly_010",
+  "task_id": "MSFT_20201027",
+  "qtype": "CapitalAllocation",
+  "chosen": "systemD_local_gemma4_31b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.5003,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.4516,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.5202,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.566
+  }
+ },
+ {
+  "id": "poly_011",
+  "task_id": "MSFT_20201027",
+  "qtype": "MarginStrategy",
+  "chosen": "systemD_local_qwen3_32b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.3822,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.4253,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.3833,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.3788
+  }
+ },
+ {
+  "id": "poly_012",
+  "task_id": "MSFT_20201027",
+  "qtype": "Capex",
+  "chosen": "systemD_local_gemma4_31b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.3424,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.494,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.4736,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.54
+  }
+ },
+ {
+  "id": "poly_013",
+  "task_id": "MSFT_20210126",
+  "qtype": "RevenueFocus",
+  "chosen": "systemD_local_gemma4_31b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.3617,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.493,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.4578,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.5415
+  }
+ },
+ {
+  "id": "poly_014",
+  "task_id": "MSFT_20210126",
+  "qtype": "CapitalAllocation",
+  "chosen": "expert_C_local_gemma4_31b_grouped_v1/predictions.csv",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.395,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.302,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.4824,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.397
+  }
+ },
+ {
+  "id": "poly_015",
+  "task_id": "MSFT_20210126",
+  "qtype": "MarginStrategy",
+  "chosen": "expert_C_local_gemma4_31b_grouped_v1/predictions.csv",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.3175,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.324,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.3417,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.3197
+  }
+ },
+ {
+  "id": "poly_016",
+  "task_id": "MSFT_20210126",
+  "qtype": "Capex",
+  "chosen": "expert_C_local_gemma4_31b_grouped_v1/predictions.csv",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.4627,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.485,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.5154,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.5072
+  }
+ },
+ {
+  "id": "poly_017",
+  "task_id": "MSFT_20210427",
+  "qtype": "RevenueFocus",
+  "chosen": "systemD_local_gemma4_31b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.489,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.3972,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.4889,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.5203
+  }
+ },
+ {
+  "id": "poly_018",
+  "task_id": "MSFT_20210427",
+  "qtype": "CapitalAllocation",
+  "chosen": "expert_C_local_gemma4_31b_grouped_v1/predictions.csv",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.5092,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.4255,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.5479,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.4872
+  }
+ },
+ {
+  "id": "poly_019",
+  "task_id": "MSFT_20210427",
+  "qtype": "MarginStrategy",
+  "chosen": "systemD_local_gemma4_31b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.3326,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.2714,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.3729,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.3924
+  }
+ },
+ {
+  "id": "poly_020",
+  "task_id": "MSFT_20210427",
+  "qtype": "Capex",
+  "chosen": "systemD_local_gemma4_31b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.5095,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.487,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.5143,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.5486
+  }
+ },
+ {
+  "id": "poly_021",
+  "task_id": "HON_20200501",
+  "qtype": "RevenueFocus",
+  "chosen": "systemD_local_qwen3_32b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.4086,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.4973,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.39,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.4425
+  }
+ },
+ {
+  "id": "poly_022",
+  "task_id": "HON_20200501",
+  "qtype": "CapitalAllocation",
+  "chosen": "expert_C_local_gemma4_31b_grouped_v1/predictions.csv",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.4322,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.5035,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.5196,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.4621
+  }
+ },
+ {
+  "id": "poly_023",
+  "task_id": "HON_20200501",
+  "qtype": "MarginStrategy",
+  "chosen": "systemD_local_gemma4_31b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.1939,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.3373,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.2386,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.3502
+  }
+ },
+ {
+  "id": "poly_024",
+  "task_id": "HON_20200501",
+  "qtype": "Capex",
+  "chosen": "systemD_local_qwen3_32b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.3512,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.464,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.4003,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.3991
+  }
+ },
+ {
+  "id": "poly_025",
+  "task_id": "HON_20200724",
+  "qtype": "RevenueFocus",
+  "chosen": "expert_C_local_qwen3_32b_grouped_v1/predictions.csv",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.3625,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.3372,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.3574,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.2298
+  }
+ },
+ {
+  "id": "poly_026",
+  "task_id": "HON_20200724",
+  "qtype": "CapitalAllocation",
+  "chosen": "expert_C_local_gemma4_31b_grouped_v1/predictions.csv",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.4481,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.465,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.5777,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.4425
+  }
+ },
+ {
+  "id": "poly_027",
+  "task_id": "HON_20200724",
+  "qtype": "MarginStrategy",
+  "chosen": "systemD_local_qwen3_32b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.2344,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.3384,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.3283,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.3325
+  }
+ },
+ {
+  "id": "poly_028",
+  "task_id": "HON_20200724",
+  "qtype": "Capex",
+  "chosen": "systemD_local_gemma4_31b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.359,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.5567,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.5736,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.5912
+  }
+ },
+ {
+  "id": "poly_029",
+  "task_id": "HON_20201030",
+  "qtype": "RevenueFocus",
+  "chosen": "expert_C_local_gemma4_31b_grouped_v1/predictions.csv",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.3851,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.3612,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.4304,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.34
+  }
+ },
+ {
+  "id": "poly_030",
+  "task_id": "HON_20201030",
+  "qtype": "CapitalAllocation",
+  "chosen": "systemD_local_qwen3_32b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.5276,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.5482,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.5426,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.531
+  }
+ },
+ {
+  "id": "poly_031",
+  "task_id": "HON_20201030",
+  "qtype": "MarginStrategy",
+  "chosen": "expert_C_local_gemma4_31b_grouped_v1/predictions.csv",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.3182,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.3413,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.3434,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.3302
+  }
+ },
+ {
+  "id": "poly_032",
+  "task_id": "HON_20201030",
+  "qtype": "Capex",
+  "chosen": "systemD_local_gemma4_31b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.4712,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.5784,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.5603,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.5795
+  }
+ },
+ {
+  "id": "poly_033",
+  "task_id": "HON_20210212",
+  "qtype": "RevenueFocus",
+  "chosen": "expert_C_local_gemma4_31b_grouped_v1/predictions.csv",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.3239,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.2828,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.398,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.3451
+  }
+ },
+ {
+  "id": "poly_034",
+  "task_id": "HON_20210212",
+  "qtype": "CapitalAllocation",
+  "chosen": "expert_C_local_gemma4_31b_grouped_v1/predictions.csv",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.4698,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.455,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.5359,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.4919
+  }
+ },
+ {
+  "id": "poly_035",
+  "task_id": "HON_20210212",
+  "qtype": "MarginStrategy",
+  "chosen": "expert_C_local_gemma4_31b_grouped_v1/predictions.csv",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.3273,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.2824,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.407,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.3309
+  }
+ },
+ {
+  "id": "poly_036",
+  "task_id": "HON_20210212",
+  "qtype": "Capex",
+  "chosen": "systemD_local_qwen3_32b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.5568,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.5923,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.5711,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.4622
+  }
+ },
+ {
+  "id": "poly_037",
+  "task_id": "HON_20210423",
+  "qtype": "RevenueFocus",
+  "chosen": "systemD_local_qwen3_32b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.3785,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.4911,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.4551,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.3784
+  }
+ },
+ {
+  "id": "poly_038",
+  "task_id": "HON_20210423",
+  "qtype": "CapitalAllocation",
+  "chosen": "systemD_local_gemma4_31b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.3794,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.52,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.5315,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.5381
+  }
+ },
+ {
+  "id": "poly_039",
+  "task_id": "HON_20210423",
+  "qtype": "MarginStrategy",
+  "chosen": "systemD_local_gemma4_31b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.2674,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.3574,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.2567,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.389
+  }
+ },
+ {
+  "id": "poly_040",
+  "task_id": "HON_20210423",
+  "qtype": "Capex",
+  "chosen": "systemD_local_qwen3_32b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.3726,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.5153,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.4993,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.4634
+  }
+ },
+ {
+  "id": "poly_041",
+  "task_id": "JNJ_20200429",
+  "qtype": "RevenueFocus",
+  "chosen": "systemD_local_gemma4_31b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.3558,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.408,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.4209,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.435
+  }
+ },
+ {
+  "id": "poly_042",
+  "task_id": "JNJ_20200429",
+  "qtype": "CapitalAllocation",
+  "chosen": "systemD_local_gemma4_31b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.4931,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.5105,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.5681,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.5836
+  }
+ },
+ {
+  "id": "poly_043",
+  "task_id": "JNJ_20200429",
+  "qtype": "MarginStrategy",
+  "chosen": "expert_C_local_gemma4_31b_grouped_v1/predictions.csv",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.2203,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.2203,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.357,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.3247
+  }
+ },
+ {
+  "id": "poly_044",
+  "task_id": "JNJ_20200429",
+  "qtype": "Capex",
+  "chosen": "systemD_local_qwen3_32b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.3884,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.408,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.3974,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.3797
+  }
+ },
+ {
+  "id": "poly_045",
+  "task_id": "JNJ_20200724",
+  "qtype": "RevenueFocus",
+  "chosen": "systemD_local_gemma4_31b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.2961,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.3401,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.3277,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.3866
+  }
+ },
+ {
+  "id": "poly_046",
+  "task_id": "JNJ_20200724",
+  "qtype": "CapitalAllocation",
+  "chosen": "expert_C_local_gemma4_31b_grouped_v1/predictions.csv",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.4166,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.5387,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.5557,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.5325
+  }
+ },
+ {
+  "id": "poly_047",
+  "task_id": "JNJ_20200724",
+  "qtype": "MarginStrategy",
+  "chosen": "systemD_local_gemma4_31b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.1887,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.2969,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.3382,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.3435
+  }
+ },
+ {
+  "id": "poly_048",
+  "task_id": "JNJ_20200724",
+  "qtype": "Capex",
+  "chosen": "expert_C_local_gemma4_31b_grouped_v1/predictions.csv",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.4354,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.4965,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.5175,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.4905
+  }
+ },
+ {
+  "id": "poly_049",
+  "task_id": "JNJ_20201023",
+  "qtype": "RevenueFocus",
+  "chosen": "expert_C_local_qwen3_32b_grouped_v1/predictions.csv",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.4247,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.4117,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.3906,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.3932
+  }
+ },
+ {
+  "id": "poly_050",
+  "task_id": "JNJ_20201023",
+  "qtype": "CapitalAllocation",
+  "chosen": "expert_C_local_gemma4_31b_grouped_v1/predictions.csv",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.4682,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.3829,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.4772,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.4547
+  }
+ },
+ {
+  "id": "poly_051",
+  "task_id": "JNJ_20201023",
+  "qtype": "MarginStrategy",
+  "chosen": "systemD_local_gemma4_31b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.4512,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.4295,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.386,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.5418
+  }
+ },
+ {
+  "id": "poly_052",
+  "task_id": "JNJ_20201023",
+  "qtype": "Capex",
+  "chosen": "systemD_local_gemma4_31b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.5526,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.5898,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.5649,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.6092
+  }
+ },
+ {
+  "id": "poly_053",
+  "task_id": "JNJ_20210222",
+  "qtype": "RevenueFocus",
+  "chosen": "systemD_local_gemma4_31b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.467,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.424,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.4754,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.5544
+  }
+ },
+ {
+  "id": "poly_054",
+  "task_id": "JNJ_20210222",
+  "qtype": "CapitalAllocation",
+  "chosen": "expert_C_local_qwen3_32b_grouped_v1/predictions.csv",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.5668,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.5282,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.5117,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.5544
+  }
+ },
+ {
+  "id": "poly_055",
+  "task_id": "JNJ_20210222",
+  "qtype": "MarginStrategy",
+  "chosen": "systemD_local_gemma4_31b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.3552,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.3558,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.285,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.3852
+  }
+ },
+ {
+  "id": "poly_056",
+  "task_id": "JNJ_20210222",
+  "qtype": "Capex",
+  "chosen": "expert_C_local_gemma4_31b_grouped_v1/predictions.csv",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.4793,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.5066,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.5474,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.4813
+  }
+ },
+ {
+  "id": "poly_057",
+  "task_id": "JNJ_20210430",
+  "qtype": "RevenueFocus",
+  "chosen": "systemD_local_gemma4_31b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.4059,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.3561,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.4249,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.4926
+  }
+ },
+ {
+  "id": "poly_058",
+  "task_id": "JNJ_20210430",
+  "qtype": "CapitalAllocation",
+  "chosen": "systemD_local_qwen3_32b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.3878,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.464,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.4014,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.4214
+  }
+ },
+ {
+  "id": "poly_059",
+  "task_id": "JNJ_20210430",
+  "qtype": "MarginStrategy",
+  "chosen": "systemD_local_qwen3_32b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.3007,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.3771,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.3641,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.3668
+  }
+ },
+ {
+  "id": "poly_060",
+  "task_id": "JNJ_20210430",
+  "qtype": "Capex",
+  "chosen": "systemD_local_qwen3_32b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.3845,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.5012,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.4796,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.4459
+  }
+ },
+ {
+  "id": "poly_061",
+  "task_id": "UVV_20200528",
+  "qtype": "RevenueFocus",
+  "chosen": "systemD_local_gemma4_31b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.4166,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.407,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.4173,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.4323
+  }
+ },
+ {
+  "id": "poly_062",
+  "task_id": "UVV_20200528",
+  "qtype": "CapitalAllocation",
+  "chosen": "expert_C_local_gemma4_31b_grouped_v1/predictions.csv",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.4796,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.4637,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.5188,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.5133
+  }
+ },
+ {
+  "id": "poly_063",
+  "task_id": "UVV_20200528",
+  "qtype": "MarginStrategy",
+  "chosen": "systemD_local_gemma4_31b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.2048,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.325,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.275,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.3347
+  }
+ },
+ {
+  "id": "poly_064",
+  "task_id": "UVV_20200528",
+  "qtype": "Capex",
+  "chosen": "systemD_local_qwen3_32b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.433,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.5019,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.4755,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.4963
+  }
+ },
+ {
+  "id": "poly_065",
+  "task_id": "UVV_20200805",
+  "qtype": "RevenueFocus",
+  "chosen": "expert_C_local_gemma4_31b_grouped_v1/predictions.csv",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.4332,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.4835,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.5044,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.4721
+  }
+ },
+ {
+  "id": "poly_066",
+  "task_id": "UVV_20200805",
+  "qtype": "CapitalAllocation",
+  "chosen": "systemD_local_gemma4_31b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.4819,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.4964,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.5152,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.6018
+  }
+ },
+ {
+  "id": "poly_067",
+  "task_id": "UVV_20200805",
+  "qtype": "MarginStrategy",
+  "chosen": "systemD_local_qwen3_32b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.2928,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.3794,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.2659,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.261
+  }
+ },
+ {
+  "id": "poly_068",
+  "task_id": "UVV_20200805",
+  "qtype": "Capex",
+  "chosen": "systemD_local_qwen3_32b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.4429,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.4756,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.4444,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.4478
+  }
+ },
+ {
+  "id": "poly_069",
+  "task_id": "UVV_20201105",
+  "qtype": "RevenueFocus",
+  "chosen": "expert_C_local_gemma4_31b_grouped_v1/predictions.csv",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.4952,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.4609,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.5531,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.4378
+  }
+ },
+ {
+  "id": "poly_070",
+  "task_id": "UVV_20201105",
+  "qtype": "CapitalAllocation",
+  "chosen": "expert_C_local_gemma4_31b_grouped_v1/predictions.csv",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.4228,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.5062,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.5564,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.4722
+  }
+ },
+ {
+  "id": "poly_071",
+  "task_id": "UVV_20201105",
+  "qtype": "MarginStrategy",
+  "chosen": "expert_C_local_gemma4_31b_grouped_v1/predictions.csv",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.2819,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.3449,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.4081,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.3229
+  }
+ },
+ {
+  "id": "poly_072",
+  "task_id": "UVV_20201105",
+  "qtype": "Capex",
+  "chosen": "expert_C_local_gemma4_31b_grouped_v1/predictions.csv",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.4163,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.4617,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.5214,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.5114
+  }
+ },
+ {
+  "id": "poly_073",
+  "task_id": "UVV_20210208",
+  "qtype": "RevenueFocus",
+  "chosen": "expert_C_local_gemma4_31b_grouped_v1/predictions.csv",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.4251,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.5297,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.5358,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.4503
+  }
+ },
+ {
+  "id": "poly_074",
+  "task_id": "UVV_20210208",
+  "qtype": "CapitalAllocation",
+  "chosen": "expert_C_local_gemma4_31b_grouped_v1/predictions.csv",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.494,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.4327,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.5189,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.4971
+  }
+ },
+ {
+  "id": "poly_075",
+  "task_id": "UVV_20210208",
+  "qtype": "MarginStrategy",
+  "chosen": "systemD_local_gemma4_31b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.263,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.3077,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.3134,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.3266
+  }
+ },
+ {
+  "id": "poly_076",
+  "task_id": "UVV_20210208",
+  "qtype": "Capex",
+  "chosen": "systemD_local_qwen3_32b/expert_test.compressed.jsonl",
+  "utilities": {
+   "expert_C_local_qwen3_32b_grouped_v1/predictions.csv": 0.4486,
+   "systemD_local_qwen3_32b/expert_test.compressed.jsonl": 0.4866,
+   "expert_C_local_gemma4_31b_grouped_v1/predictions.csv": 0.4636,
+   "systemD_local_gemma4_31b/expert_test.compressed.jsonl": 0.3948
+  }
+ }
+]

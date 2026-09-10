@@ -1,0 +1,34 @@
+{
+ "cache_key": "0d46bbdde7820266a98ee32a7f38f3b15544ee133f45e146b074dda8300094d0",
+ "experiment_id": "systemD_compress70_expert_test",
+ "timestamp": "2026-08-20T04:23:03.194202+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "compress70_v1",
+ "config_tag": "compress70_v1",
+ "system_prompt": "You rewrite financial-QA answers to be more concise without losing substance.\n\nRewrite the answer below to roughly 65-75 words (NEVER more than 85). Rules:\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Keep EVERY distinct fact and every key figure exactly as written: numbers, units, currencies, percentages, periods. Do not drop facts — shorten the wording around them.\n- Keep at least one verbatim evidence quote; shorten prose, not quotes. NEVER alter, translate, or paraphrase inside quotation marks.\n- Reuse the question's key terms in the answer wording.\n- Remove only filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: What is the company’s strategy on navigating maintaining profit margins from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: Honeywell's strategy for maintaining profit margins includes focusing on cost management, delivering cost savings, and investing in emerging markets and technologies. The company reported $450 million in cost savings during Q3 2020, contributing to margin expansion in some segments like Honeywell Building Technologies, which saw a 60 basis point margin increase. \n\nFinancial Statements Evidence: The cash flow statement indicates $486 million in repositioning and other charges for the nine months ended September 30, 2020, with net payments of $652 million. Additionally, depreciation and amortization were $480 million and $268 million, respectively, indicating ongoing capital and operational cost management efforts.",
+ "user_prompt_sha256": "b9d6deb9b1a1ddb0edaabe140828c3acce9af283b92bf24c337c476ea549244c",
+ "user_prompt_chars": 962,
+ "task_id": "HON_20201030",
+ "submission_id": null,
+ "question": "What is the company’s strategy on navigating maintaining profit margins from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: Honeywell’s strategy for maintaining profit margins includes cost management, cost savings, and investments in emerging markets and technologies. The company reported $450 million in cost savings during Q3 2020, contributing to margin expansion in segments like Honeywell Building Technologies, which saw a 60 basis point margin increase.\n\nFinancial Statements Evidence: The cash flow statement indicates $486 million in repositioning and other charges for the nine months ended September 30, 2020, with net payments of $652 million. Depreciation and amortization were $480 million and $268 million, respectively.",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 374,
+  "output_tokens": 137
+ },
+ "from_cache": false
+}

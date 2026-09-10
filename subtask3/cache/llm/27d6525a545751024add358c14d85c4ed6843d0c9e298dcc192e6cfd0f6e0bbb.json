@@ -1,0 +1,34 @@
+{
+ "cache_key": "27d6525a545751024add358c14d85c4ed6843d0c9e298dcc192e6cfd0f6e0bbb",
+ "experiment_id": "systemD_compress70_expert_test",
+ "timestamp": "2026-08-20T04:24:12.150834+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "compress70_v1",
+ "config_tag": "compress70_v1",
+ "system_prompt": "You rewrite financial-QA answers to be more concise without losing substance.\n\nRewrite the answer below to roughly 65-75 words (NEVER more than 85). Rules:\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Keep EVERY distinct fact and every key figure exactly as written: numbers, units, currencies, percentages, periods. Do not drop facts — shorten the wording around them.\n- Keep at least one verbatim evidence quote; shorten prose, not quotes. NEVER alter, translate, or paraphrase inside quotation marks.\n- Reuse the question's key terms in the answer wording.\n- Remove only filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: What is the company’s strategy on navigating maintaining profit margins from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: Honeywell’s strategy for maintaining profit margins includes cost management, streamlined cost base, and commercial excellence. The company reported segment margin expansion in Aerospace, Honeywell Building Technologies, and Safety and Productivity Solutions, driven by these measures.  \n\nFinancial Statements Evidence:  \n- Segment margin expanded 110 basis points to 29.0% in Aerospace.  \n- Segment margin expanded 200 basis points to 22.5% in Honeywell Building Technologies.  \n- Segment margin expanded 180 basis points to 14.3% in Safety and Productivity Solutions.  \n- Operating margin for the quarter was 17.8%, with segment margin at 21.0%.",
+ "user_prompt_sha256": "a04f4167b8c0af3bddb9027ce9b28397d6b45106e7b344537dc8dcb9589cf018",
+ "user_prompt_chars": 887,
+ "task_id": "HON_20210423",
+ "submission_id": null,
+ "question": "What is the company’s strategy on navigating maintaining profit margins from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: Honeywell’s strategy for maintaining profit margins includes cost management, streamlined cost base, and commercial excellence, reflected in segment margin growth across key divisions.  \n\nFinancial Statements Evidence:  \n- Segment margin expanded 110 basis points to 29.0% in Aerospace.  \n- Expanded 200 basis points to 22.5% in Honeywell Building Technologies.  \n- Expanded 180 basis points to 14.3% in Safety and Productivity Solutions.  \n- Operating margin for the quarter was 17.8%, with segment margin at 21.0%.",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 371,
+  "output_tokens": 127
+ },
+ "from_cache": false
+}

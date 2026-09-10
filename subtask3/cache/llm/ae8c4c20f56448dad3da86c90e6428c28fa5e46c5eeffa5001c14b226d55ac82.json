@@ -1,0 +1,34 @@
+{
+ "cache_key": "ae8c4c20f56448dad3da86c90e6428c28fa5e46c5eeffa5001c14b226d55ac82",
+ "experiment_id": "systemD_compress70_expert_test",
+ "timestamp": "2026-08-20T04:18:55.412782+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "compress70_v1",
+ "config_tag": "compress70_v1",
+ "system_prompt": "You rewrite financial-QA answers to be more concise without losing substance.\n\nRewrite the answer below to roughly 65-75 words (NEVER more than 85). Rules:\n- Keep the exact labeled structure of the original (e.g. \"Answer: ...\" and the \"... Evidence: ...\" line with its exact label).\n- Keep EVERY distinct fact and every key figure exactly as written: numbers, units, currencies, percentages, periods. Do not drop facts — shorten the wording around them.\n- Keep at least one verbatim evidence quote; shorten prose, not quotes. NEVER alter, translate, or paraphrase inside quotation marks.\n- Reuse the question's key terms in the answer wording.\n- Remove only filler, hedging, repetition, and meta-commentary.\n- Output ONLY the rewritten answer text, nothing else.",
+ "user_prompt": "Question: Please list the top three focuses on revenue from news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.\n\nOriginal answer:\nAnswer: The top three revenue focuses from the news are Cloud (Intelligent Cloud), Productivity and Business Processes (Office 365), and Personal Computing (Xbox and Surface).  \nFinancial Statements Evidence: Intelligent Cloud revenue was $48.366 billion (47% Azure growth). Productivity and Business Processes revenue was $46.398 billion (13% increase). Personal Computing revenue was $48.251 billion (14% increase, driven by Xbox and Surface).",
+ "user_prompt_sha256": "c42116dbf5a5cc5f594c1c6836633097f180ea8bee50363f8a4cc5dc884a863a",
+ "user_prompt_chars": 646,
+ "task_id": "MSFT_20200730",
+ "submission_id": null,
+ "question": "Please list the top three focuses on revenue from news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: The top three revenue focuses from the news are Cloud (Intelligent Cloud), Productivity and Business Processes (Office 365), and Personal Computing (Xbox and Surface).  \nFinancial Statements Evidence: Intelligent Cloud revenue was $48.366 billion (47% Azure growth). Productivity and Business Processes revenue was $46.398 billion (13% increase). Personal Computing revenue was $48.251 billion (14% increase, driven by Xbox and Surface).",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 327,
+  "output_tokens": 108
+ },
+ "from_cache": false
+}

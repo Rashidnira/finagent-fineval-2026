@@ -1,0 +1,34 @@
+{
+ "cache_key": "536b1efc409495671da4c4c96ce92f413784e62a526b5b802cdabf7b132dd1ea",
+ "experiment_id": "fix_nonlatin",
+ "timestamp": "2026-08-20T19:02:14.240740+00:00",
+ "provider_fingerprint": {
+  "provider": "local_qwen3_32b",
+  "model": "qwen3:32b",
+  "experiment_namespace": "local_qwen3_32b",
+  "quantization": "gguf-q4_k_m",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_output_tokens": 4096
+ },
+ "model": "qwen3:32b",
+ "served_model": "qwen3:32b",
+ "prompt_version": "fix_nonlatin_v1",
+ "config_tag": "fix_nonlatin_v1",
+ "system_prompt": "The answer below contains non-English text (Chinese, Japanese, Greek, or Spanish). Rewrite it in ENGLISH ONLY, at most 70 words: translate the non-English parts faithfully into English prose (no quotation marks around translations), keep the labeled structure (Answer: / ... Evidence: lines), keep all figures exactly. Not a single non-Latin character may remain. Output ONLY the rewritten answer.",
+ "user_prompt": "Original answer:\nAnswer: Universal Corporation allocated capital through $162.65M in short-term debt issuance and $37.42M in common stock dividends. No stock was repurchased in 2020 versus $12.34M in 2019. The rise in short-term debt to $235.4M reflects strategic investments, including the FruitSmart acquisition.  \n\nFinancial Statements Evidence:  \n- Issuance of short-term debt, net: $162,646 (Six Months Ended September 30, 2020).  \n- Dividends paid on common stock: $37,424 (Six Months Ended September 30, 2020).  \n- Repurchase of common stock: $— (Six Months Ended September 30, 2020) vs. $12,338 in 2019.  \n- Short-term debt: $235,413 (Balance Sheet, September 30, 2020).",
+ "user_prompt_sha256": "314a9b90987bb6bef3942addb66a9a10e12fda072889e51f9b2a7e0b17d96735",
+ "user_prompt_chars": 678,
+ "task_id": "UVV_20201105",
+ "submission_id": null,
+ "question": "How is the company allocating capital (e.g., investments, share repurchases, dividends) based on its performance and market outlook from the news? Please quote all the relevant financial information from the financial statements supporting the finding(s), if any.",
+ "raw_response": "Answer: Universal Corporation allocated capital via $162.65M in short-term debt issuance and $37.42M in common stock dividends. No stock was repurchased in 2020 versus $12.34M in 2019. The increase in short-term debt to $235.4M reflects strategic investments, such as the FruitSmart acquisition.  \n\nFinancial Statements Evidence:  \n- Issuance of short-term debt, net: $162,646 (Six Months Ended September 30, 2020).  \n- Dividends paid on common stock: $37,424 (Six Months Ended September 30, 2020).  \n- Repurchase of common stock: $— (Six Months Ended September 30, 2020) vs. $12,338 in 2019.  \n- Short-term debt: $235,413 (Balance Sheet, September 30, 2020).",
+ "stop_reason": "stop",
+ "usage": {
+  "input_tokens": 327,
+  "output_tokens": 227
+ },
+ "from_cache": false
+}

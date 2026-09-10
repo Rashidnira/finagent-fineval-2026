@@ -1,0 +1,16 @@
+task_id,n_flagged,flags
+HON_20200501,2,unverbatim_quotes
+HON_20210212,1,unverbatim_quotes
+HON_20210423,1,unverbatim_quotes
+JNJ_20200429,1,unverbatim_quotes
+JNJ_20200724,1,untraceable_numbers
+JNJ_20201023,2,untraceable_numbers;unverbatim_quotes
+JNJ_20210222,2,untraceable_numbers
+MSFT_20200429,1,unverbatim_quotes
+MSFT_20201027,1,unverbatim_quotes
+MSFT_20210126,1,unverbatim_quotes
+MSFT_20210427,2,unverbatim_quotes
+UVV_20200528,1,untraceable_numbers
+UVV_20200805,1,unverbatim_quotes
+UVV_20201105,2,missing_evidence_label
+UVV_20210208,1,missing_evidence_label

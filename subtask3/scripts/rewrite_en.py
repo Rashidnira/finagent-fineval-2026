@@ -18,7 +18,8 @@ scorer (no reference answers are used anywhere):
 
 Every call goes through src.generator.Generator, so responses are cached
 under cache/llm/ and the run is byte-reproducible from a warm cache.
-The prompt version and configuration tag are recorded with each generated response.
+This is exactly the configuration (prompt_version / config_tag
+"rewrite_en60_v1") that produced submission_qwen32b_De2.csv.
 """
 from __future__ import annotations
 
